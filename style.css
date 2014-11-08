@@ -1309,6 +1309,11 @@ img.wp-post-image {
 }
 
 /* line 36, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/content/_content.scss */
+.home .entry-header {
+  display: none;
+}
+
+/* line 40, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/content/_content.scss */
 .entry-header {
   /* We define a list of values for both units */
   /* We define a list of values for both units */
@@ -1322,17 +1327,17 @@ img.wp-post-image {
   /* We output the result */
 }
 
-/* line 40, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/content/_content.scss */
+/* line 44, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/content/_content.scss */
 h1.entry-title {
   margin-left: -2px;
 }
-/* line 44, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/content/_content.scss */
+/* line 48, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/content/_content.scss */
 h1.entry-title a,
 h1.entry-title a:visited {
   text-decoration: none;
   color: royalblue;
 }
-/* line 51, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/content/_content.scss */
+/* line 55, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/content/_content.scss */
 h1.entry-title a:hover,
 h1.entry-title a:focus,
 h1.entry-title a:active {
@@ -1340,14 +1345,14 @@ h1.entry-title a:active {
   color: midnightblue;
 }
 
-/* line 57, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/content/_content.scss */
+/* line 61, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/content/_content.scss */
 .entry-meta {
   font-family: sans-serif;
   font-size: 14px;
   font-size: 1.4rem;
   color: gray;
 }
-/* line 62, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/content/_content.scss */
+/* line 66, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/content/_content.scss */
 .entry-meta .edit-link {
   /* We define a list of values for both units */
   /* We define a list of values for both units */
@@ -1361,25 +1366,25 @@ h1.entry-title a:active {
   /* We output the result */
 }
 
-/* line 68, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/content/_content.scss */
+/* line 72, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/content/_content.scss */
 .byline,
 .updated:not(.published) {
   display: none;
 }
 
-/* line 73, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/content/_content.scss */
+/* line 77, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/content/_content.scss */
 .single .byline,
 .group-blog .byline {
   display: inline;
 }
 
-/* line 79, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/content/_content.scss */
+/* line 83, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/content/_content.scss */
 .page-content,
 .entry-content,
 .entry-summary {
   text-align: justify;
 }
-/* line 87, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/content/_content.scss */
+/* line 91, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/content/_content.scss */
 .page-content h1,
 .page-content h2,
 .page-content h3,
@@ -1411,7 +1416,7 @@ h1.entry-title a:active {
   padding: 2rem 0;
   /* We output the result */
 }
-/* line 91, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/content/_content.scss */
+/* line 95, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/content/_content.scss */
 .page-content p,
 .entry-content p,
 .entry-summary p {
@@ -1427,14 +1432,14 @@ h1.entry-title a:active {
   /* We output the result */
 }
 
-/* line 96, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/content/_content.scss */
+/* line 100, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/content/_content.scss */
 .entry-footer {
   font-family: sans-serif;
   font-size: 14px;
   font-size: 1.4rem;
   color: gray;
 }
-/* line 101, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/content/_content.scss */
+/* line 105, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/content/_content.scss */
 .entry-footer span {
   display: inline-block;
   /* We define a list of values for both units */
@@ -1448,7 +1453,7 @@ h1.entry-title a:active {
   margin-right: 2rem;
   /* We output the result */
 }
-/* line 106, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/content/_content.scss */
+/* line 110, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/content/_content.scss */
 .entry-footer .edit-link {
   margin-right: 0;
 }
