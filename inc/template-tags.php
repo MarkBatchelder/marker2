@@ -252,6 +252,9 @@ function marker_categorized_blog() {
  * Flush out the transients used in marker_categorized_blog.
  */
 function marker_category_transient_flusher() {
+	if ( defined( 'DOING_AUTOSAVE' ) && DOING_AUTOSAVE ) {
+		return;
+	}
 	// Like, beat it. Dig?
 	delete_transient( 'marker_categories' );
 }
