@@ -111,10 +111,6 @@ add_action( 'widgets_init', 'marker_widgets_init' );
  * Enqueue scripts and styles.
  */
 function marker_scripts() {
-	if ( is_child_theme() ) {
-		wp_enqueue_style( 'marker-parent-style', get_template_directory_uri() . '/style.css' );
-	}
-
 	wp_enqueue_style( 'marker-style', get_stylesheet_uri() );
 
 	wp_enqueue_script( 'marker-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20120206', true );
