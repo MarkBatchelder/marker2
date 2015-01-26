@@ -107,8 +107,6 @@ html {
 *:before,
 *:after {
   /* apply a natural box layout model to all elements; see http://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -624,9 +622,6 @@ input[type="reset"],
 input[type="submit"] {
   border: 1px solid;
   border-color: #cccccc #cccccc #bbbbbb;
-  background-clip: padding-box;
-  /* stops bg color from leaking outside the border: */
-  -webkit-border-radius: 3px;
   border-radius: 3px;
   background: #e6e6e6;
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), inset 0 15px 17px rgba(255, 255, 255, 0.5), inset 0 -5px 12px rgba(0, 0, 0, 0.05);
@@ -677,19 +672,16 @@ input[type="radio"] {
 input[type="search"] {
   -webkit-appearance: textfield;
   /* Addresses appearance set to searchfield in S5, Chrome */
-  -webkit-box-sizing: content-box;
-  /* Addresses box sizing set to border-box in S5, Chrome (include -moz to future-proof) */
-  -moz-box-sizing: content-box;
   box-sizing: content-box;
 }
 
-/* line 13, sass/forms/_fields.scss */
+/* line 11, sass/forms/_fields.scss */
 input[type="search"]::-webkit-search-decoration {
   /* Corrects inner padding displayed oddly in S5, Chrome on OSX */
   -webkit-appearance: none;
 }
 
-/* line 18, sass/forms/_fields.scss */
+/* line 16, sass/forms/_fields.scss */
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   /* Corrects inner padding and border displayed oddly in FF3/4 www.sitepen.com/blog/2008/05/14/the-devils-in-the-details-fixing-dojos-toolbar-buttons/ */
@@ -697,7 +689,7 @@ input::-moz-focus-inner {
   padding: 0;
 }
 
-/* line 28, sass/forms/_fields.scss */
+/* line 26, sass/forms/_fields.scss */
 input[type="text"],
 input[type="email"],
 input[type="url"],
@@ -706,13 +698,10 @@ input[type="search"],
 textarea {
   color: #666666;
   border: 1px solid #cccccc;
-  background-clip: padding-box;
-  /* stops bg color from leaking outside the border: */
-  -webkit-border-radius: 3px;
   border-radius: 3px;
 }
 
-/* line 39, sass/forms/_fields.scss */
+/* line 37, sass/forms/_fields.scss */
 input[type="text"]:focus,
 input[type="email"]:focus,
 input[type="url"]:focus,
@@ -722,7 +711,7 @@ textarea:focus {
   color: #111111;
 }
 
-/* line 47, sass/forms/_fields.scss */
+/* line 45, sass/forms/_fields.scss */
 input[type="text"],
 input[type="email"],
 input[type="url"],
@@ -740,7 +729,7 @@ input[type="search"] {
   /* We output the result */
 }
 
-/* line 51, sass/forms/_fields.scss */
+/* line 49, sass/forms/_fields.scss */
 textarea {
   overflow: auto;
   /* Removes default vertical scrollbar in IE6/7/8/9 */
@@ -774,9 +763,6 @@ textarea {
 /* line 11, sass/modules/_accessibility.scss */
 .screen-reader-text:hover, .screen-reader-text:active, .screen-reader-text:focus {
   background-color: white;
-  background-clip: padding-box;
-  /* stops bg color from leaking outside the border: */
-  -webkit-border-radius: 3px;
   border-radius: 3px;
   box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
   clip: auto !important;
