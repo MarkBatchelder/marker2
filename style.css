@@ -56,6 +56,7 @@ and Blueprint http://www.blueprintcss.org/
 15.0 Media
 	15.1 Captions
 	15.2 Galleries
+16.0 Plugins
 --------------------------------------------------------------*/
 /* Body */
 /* Extra Navigation */
@@ -69,7 +70,7 @@ and Blueprint http://www.blueprintcss.org/
 /*--------------------------------------------------------------
 1.0 Reset
 --------------------------------------------------------------*/
-/* line 8, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/_reset.scss */
+/* line 8, sass/_reset.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -89,7 +90,7 @@ table, caption, tbody, tfoot, thead, tr, th, td {
   vertical-align: baseline;
 }
 
-/* line 19, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/_reset.scss */
+/* line 19, sass/_reset.scss */
 html {
   font-size: 62.5%;
   /* Corrects text resizing oddly in IE6/7 when body font-size is set using em units http://clagnut.com/blog/348/#c790 */
@@ -101,7 +102,7 @@ html {
   /* www.456bereastreet.com/archive/201012/controlling_text_size_in_safari_for_ios_without_disabling_user_zoom/ */
 }
 
-/* line 27, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/_reset.scss */
+/* line 27, sass/_reset.scss */
 *,
 *:before,
 *:after {
@@ -111,13 +112,13 @@ html {
   box-sizing: border-box;
 }
 
-/* line 30, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/_reset.scss */
+/* line 30, sass/_reset.scss */
 body {
   background: #eeeeee;
   /* Fallback for when there is no custom background color defined. */
 }
 
-/* line 42, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/_reset.scss */
+/* line 42, sass/_reset.scss */
 article,
 aside,
 details,
@@ -131,47 +132,47 @@ section {
   display: block;
 }
 
-/* line 45, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/_reset.scss */
+/* line 45, sass/_reset.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 48, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/_reset.scss */
+/* line 48, sass/_reset.scss */
 table {
   /* tables still need 'cellspacing="0"' in the markup */
   border-collapse: separate;
   border-spacing: 0;
 }
 
-/* line 52, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/_reset.scss */
+/* line 52, sass/_reset.scss */
 caption, th, td {
   font-weight: normal;
   text-align: left;
 }
 
-/* line 57, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/_reset.scss */
+/* line 57, sass/_reset.scss */
 blockquote:before, blockquote:after,
 q:before, q:after {
   content: "";
 }
 
-/* line 60, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/_reset.scss */
+/* line 60, sass/_reset.scss */
 blockquote, q {
   quotes: "" "";
 }
 
-/* line 63, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/_reset.scss */
+/* line 63, sass/_reset.scss */
 a:focus {
   outline: thin dotted;
 }
 
-/* line 67, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/_reset.scss */
+/* line 67, sass/_reset.scss */
 a:hover,
 a:active {
   outline: 0;
 }
 
-/* line 70, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/_reset.scss */
+/* line 70, sass/_reset.scss */
 a img {
   border: 0;
 }
@@ -179,7 +180,7 @@ a img {
 /*--------------------------------------------------------------
 2.0 Typography
 --------------------------------------------------------------*/
-/* line 5, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/typography/_typography.scss */
+/* line 5, sass/typography/_typography.scss */
 body,
 button,
 input,
@@ -194,7 +195,7 @@ textarea {
 
 /* 2.1 Headings
 ----------------------------------------------------------*/
-/* line 6, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/typography/_headings.scss */
+/* line 6, sass/typography/_headings.scss */
 h1,
 h2,
 h3,
@@ -205,7 +206,7 @@ h6 {
   text-align: left;
 }
 
-/* line 16, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/typography/_headings.scss */
+/* line 16, sass/typography/_headings.scss */
 h1 a,
 h2 a,
 h3 a,
@@ -215,7 +216,7 @@ h6 a {
   text-decoration: none;
 }
 
-/* line 20, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/typography/_headings.scss */
+/* line 20, sass/typography/_headings.scss */
 h1 {
   font-family: sans-serif;
   font-size: 32px;
@@ -223,7 +224,7 @@ h1 {
   line-height: 1;
 }
 
-/* line 30, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/typography/_headings.scss */
+/* line 30, sass/typography/_headings.scss */
 h2,
 h3,
 h4,
@@ -232,21 +233,21 @@ h6 {
   font-family: sans-serif;
 }
 
-/* line 34, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/typography/_headings.scss */
+/* line 34, sass/typography/_headings.scss */
 h2 {
   font-size: 26px;
   font-size: 2.6rem;
   line-height: 1;
 }
 
-/* line 39, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/typography/_headings.scss */
+/* line 39, sass/typography/_headings.scss */
 h3 {
   font-size: 20px;
   font-size: 2rem;
   line-height: 1.3;
 }
 
-/* line 46, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/typography/_headings.scss */
+/* line 46, sass/typography/_headings.scss */
 h4,
 h5,
 h6 {
@@ -258,54 +259,54 @@ h6 {
 
 /* 2.2 Copy
 ----------------------------------------------------------*/
-/* line 1, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/typography/_copy.scss */
+/* line 1, sass/typography/_copy.scss */
 p {
   margin-bottom: 2rem;
 }
 
-/* line 7, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/typography/_copy.scss */
+/* line 7, sass/typography/_copy.scss */
 b,
 cite,
 strong {
   font-weight: bold;
 }
 
-/* line 13, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/typography/_copy.scss */
+/* line 13, sass/typography/_copy.scss */
 dfn,
 em,
 i {
   font-style: italic;
 }
 
-/* line 17, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/typography/_copy.scss */
+/* line 17, sass/typography/_copy.scss */
 address {
   margin: 0 0 2rem;
 }
 
-/* line 21, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/typography/_copy.scss */
+/* line 21, sass/typography/_copy.scss */
 abbr {
   border-bottom: 1px dotted #666666;
   cursor: help;
 }
 
-/* line 26, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/typography/_copy.scss */
+/* line 26, sass/typography/_copy.scss */
 mark {
   background: #fff9c0;
   text-decoration: none;
 }
 
-/* line 32, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/typography/_copy.scss */
+/* line 32, sass/typography/_copy.scss */
 ins,
 u {
   text-decoration: underline;
 }
 
-/* line 36, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/typography/_copy.scss */
+/* line 36, sass/typography/_copy.scss */
 del {
   text-decoration: line-through;
 }
 
-/* line 41, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/typography/_copy.scss */
+/* line 41, sass/typography/_copy.scss */
 sup,
 sub {
   font-size: 75%;
@@ -315,46 +316,46 @@ sub {
   vertical-align: baseline;
 }
 
-/* line 49, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/typography/_copy.scss */
+/* line 49, sass/typography/_copy.scss */
 sup {
   bottom: 1ex;
 }
 
-/* line 53, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/typography/_copy.scss */
+/* line 53, sass/typography/_copy.scss */
 sub {
   top: .5ex;
 }
 
-/* line 57, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/typography/_copy.scss */
+/* line 57, sass/typography/_copy.scss */
 small {
   font-size: 75%;
 }
 
 /* Deprecated in HTML5, but just in case */
-/* line 63, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/typography/_copy.scss */
+/* line 63, sass/typography/_copy.scss */
 acronym {
   border-bottom: 1px dotted #666666;
   cursor: help;
 }
 
-/* line 68, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/typography/_copy.scss */
+/* line 68, sass/typography/_copy.scss */
 big {
   font-size: 125%;
 }
 
 /* 2.3 Links
 ----------------------------------------------------------*/
-/* line 1, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/typography/_links.scss */
+/* line 1, sass/typography/_links.scss */
 a {
   text-decoration: none;
   color: royalblue;
 }
-/* line 5, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/typography/_links.scss */
+/* line 5, sass/typography/_links.scss */
 a:visited {
   text-decoration: none;
   color: purple;
 }
-/* line 11, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/typography/_links.scss */
+/* line 11, sass/typography/_links.scss */
 a:hover, a:focus, a:active {
   text-decoration: none;
   color: midnightblue;
@@ -363,7 +364,7 @@ a:hover, a:focus, a:active {
 /*--------------------------------------------------------------
 3.0 Elements
 --------------------------------------------------------------*/
-/* line 1, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/elements/_elements.scss */
+/* line 1, sass/elements/_elements.scss */
 hr {
   height: 1px;
   /* We define a list of values for both units */
@@ -388,7 +389,7 @@ hr {
 
 /* 3.1 Lists
 ----------------------------------------------------------*/
-/* line 1, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/elements/_lists.scss */
+/* line 1, sass/elements/_lists.scss */
 ul, ol {
   /* We define a list of values for both units */
   /* We define a list of values for both units */
@@ -410,17 +411,17 @@ ul, ol {
   /* We output the result */
 }
 
-/* line 5, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/elements/_lists.scss */
+/* line 5, sass/elements/_lists.scss */
 ul {
   list-style-type: disc;
 }
 
-/* line 9, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/elements/_lists.scss */
+/* line 9, sass/elements/_lists.scss */
 ol {
   list-style-type: decimal;
 }
 
-/* line 14, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/elements/_lists.scss */
+/* line 14, sass/elements/_lists.scss */
 li > ul,
 li > ol {
   /* We define a list of values for both units */
@@ -441,12 +442,12 @@ li > ol {
   /* We output the result */
 }
 
-/* line 18, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/elements/_lists.scss */
+/* line 18, sass/elements/_lists.scss */
 dt {
   font-weight: bold;
 }
 
-/* line 22, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/elements/_lists.scss */
+/* line 22, sass/elements/_lists.scss */
 dd {
   /* We define a list of values for both units */
   /* We define a list of values for both units */
@@ -468,7 +469,7 @@ dd {
 
 /* 3.2 Tables
 ----------------------------------------------------------*/
-/* line 1, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/elements/_tables.scss */
+/* line 1, sass/elements/_tables.scss */
 table {
   width: 100%;
   /* We define a list of values for both units */
@@ -488,14 +489,14 @@ table {
   border-collapse: collapse;
 }
 
-/* line 9, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/elements/_tables.scss */
+/* line 9, sass/elements/_tables.scss */
 table,
 th,
 td {
   border: 1px solid gray;
 }
 
-/* line 14, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/elements/_tables.scss */
+/* line 14, sass/elements/_tables.scss */
 th,
 td {
   /* We define a list of values for both units */
@@ -514,23 +515,23 @@ td {
   /* We output the result */
 }
 
-/* line 18, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/elements/_tables.scss */
+/* line 18, sass/elements/_tables.scss */
 th {
   font-weight: bold;
 }
 
-/* line 24, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/elements/_tables.scss */
+/* line 24, sass/elements/_tables.scss */
 .hentry th {
   background-color: transparent;
 }
-/* line 28, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/elements/_tables.scss */
+/* line 28, sass/elements/_tables.scss */
 .hentry tbody tr:nth-child(odd) {
   background-color: #eeeeee;
 }
 
 /* 3.3 Blockquotes
 ----------------------------------------------------------*/
-/* line 1, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/elements/_blockquotes.scss */
+/* line 1, sass/elements/_blockquotes.scss */
 blockquote {
   /* We define a list of values for both units */
   /* We define a list of values for both units */
@@ -551,7 +552,7 @@ blockquote {
 
 /* 3.4 Pre & Code
 ----------------------------------------------------------*/
-/* line 1, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/elements/_pre.scss */
+/* line 1, sass/elements/_pre.scss */
 pre {
   overflow: auto;
   max-width: 100%;
@@ -581,7 +582,7 @@ pre {
   line-height: 1.6;
 }
 
-/* line 11, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/elements/_pre.scss */
+/* line 11, sass/elements/_pre.scss */
 code, kbd, samp, var {
   font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
   font-size: 15px;
@@ -590,7 +591,7 @@ code, kbd, samp, var {
 }
 
 /* Deprecated in HTML5, but just in case */
-/* line 19, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/elements/_pre.scss */
+/* line 19, sass/elements/_pre.scss */
 tt {
   font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
   font-size: 15px;
@@ -601,7 +602,7 @@ tt {
 /*--------------------------------------------------------------
 4.0 Forms
 --------------------------------------------------------------*/
-/* line 4, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/forms/_forms.scss */
+/* line 4, sass/forms/_forms.scss */
 button,
 input,
 select,
@@ -616,7 +617,7 @@ textarea {
 
 /* 4.1 Buttons
 ----------------------------------------------------------*/
-/* line 4, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/forms/_buttons.scss */
+/* line 4, sass/forms/_buttons.scss */
 button,
 input[type="button"],
 input[type="reset"],
@@ -641,7 +642,7 @@ input[type="submit"] {
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
 }
 
-/* line 22, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/forms/_buttons.scss */
+/* line 22, sass/forms/_buttons.scss */
 button:hover,
 input[type="button"]:hover,
 input[type="reset"]:hover,
@@ -650,7 +651,7 @@ input[type="submit"]:hover {
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.8), inset 0 15px 17px rgba(255, 255, 255, 0.8), inset 0 -5px 12px rgba(0, 0, 0, 0.02);
 }
 
-/* line 34, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/forms/_buttons.scss */
+/* line 34, sass/forms/_buttons.scss */
 button:focus,
 input[type="button"]:focus,
 input[type="reset"]:focus,
@@ -665,14 +666,14 @@ input[type="submit"]:active {
 
 /* 4.2 Fields
 ----------------------------------------------------------*/
-/* line 2, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/forms/_fields.scss */
+/* line 2, sass/forms/_fields.scss */
 input[type="checkbox"],
 input[type="radio"] {
   padding: 0;
   /* Addresses excess padding in IE8/9 */
 }
 
-/* line 6, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/forms/_fields.scss */
+/* line 6, sass/forms/_fields.scss */
 input[type="search"] {
   -webkit-appearance: textfield;
   /* Addresses appearance set to searchfield in S5, Chrome */
@@ -682,13 +683,13 @@ input[type="search"] {
   box-sizing: content-box;
 }
 
-/* line 13, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/forms/_fields.scss */
+/* line 13, sass/forms/_fields.scss */
 input[type="search"]::-webkit-search-decoration {
   /* Corrects inner padding displayed oddly in S5, Chrome on OSX */
   -webkit-appearance: none;
 }
 
-/* line 18, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/forms/_fields.scss */
+/* line 18, sass/forms/_fields.scss */
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   /* Corrects inner padding and border displayed oddly in FF3/4 www.sitepen.com/blog/2008/05/14/the-devils-in-the-details-fixing-dojos-toolbar-buttons/ */
@@ -696,7 +697,7 @@ input::-moz-focus-inner {
   padding: 0;
 }
 
-/* line 28, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/forms/_fields.scss */
+/* line 28, sass/forms/_fields.scss */
 input[type="text"],
 input[type="email"],
 input[type="url"],
@@ -711,7 +712,7 @@ textarea {
   border-radius: 3px;
 }
 
-/* line 39, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/forms/_fields.scss */
+/* line 39, sass/forms/_fields.scss */
 input[type="text"]:focus,
 input[type="email"]:focus,
 input[type="url"]:focus,
@@ -721,7 +722,7 @@ textarea:focus {
   color: #111111;
 }
 
-/* line 47, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/forms/_fields.scss */
+/* line 47, sass/forms/_fields.scss */
 input[type="text"],
 input[type="email"],
 input[type="url"],
@@ -739,7 +740,7 @@ input[type="search"] {
   /* We output the result */
 }
 
-/* line 51, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/forms/_fields.scss */
+/* line 51, sass/forms/_fields.scss */
 textarea {
   overflow: auto;
   /* Removes default vertical scrollbar in IE6/7/8/9 */
@@ -762,7 +763,7 @@ textarea {
 5.0 Accessibility
 --------------------------------------------------------------*/
 /* Text meant only for screen readers */
-/* line 2, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/modules/_accessibility.scss */
+/* line 2, sass/modules/_accessibility.scss */
 .screen-reader-text {
   clip: rect(1px, 1px, 1px, 1px);
   position: absolute !important;
@@ -770,7 +771,7 @@ textarea {
   width: 1px;
   overflow: hidden;
 }
-/* line 11, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/modules/_accessibility.scss */
+/* line 11, sass/modules/_accessibility.scss */
 .screen-reader-text:hover, .screen-reader-text:active, .screen-reader-text:focus {
   background-color: white;
   background-clip: padding-box;
@@ -798,7 +799,7 @@ textarea {
 /*--------------------------------------------------------------
 6.0 Alignments
 --------------------------------------------------------------*/
-/* line 1, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/modules/_alignments.scss */
+/* line 1, sass/modules/_alignments.scss */
 .alignleft {
   display: inline;
   float: left;
@@ -814,7 +815,7 @@ textarea {
   /* We output the result */
 }
 
-/* line 7, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/modules/_alignments.scss */
+/* line 7, sass/modules/_alignments.scss */
 .alignright {
   display: inline;
   float: right;
@@ -830,7 +831,7 @@ textarea {
   /* We output the result */
 }
 
-/* line 13, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/modules/_alignments.scss */
+/* line 13, sass/modules/_alignments.scss */
 .aligncenter {
   display: block;
   margin: 0 auto;
@@ -839,7 +840,7 @@ textarea {
 /*--------------------------------------------------------------
 7.0 Clearings
 --------------------------------------------------------------*/
-/* line 12, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/modules/_clearings.scss */
+/* line 12, sass/modules/_clearings.scss */
 .clear:before,
 .clear:after,
 .entry-content:before,
@@ -856,7 +857,7 @@ textarea {
   display: table;
 }
 
-/* line 21, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/modules/_clearings.scss */
+/* line 21, sass/modules/_clearings.scss */
 .clear:after,
 .entry-content:after,
 .comment-content:after,
@@ -872,7 +873,7 @@ textarea {
 /*--------------------------------------------------------------
 9.0 Body (Background)
 --------------------------------------------------------------*/
-/* line 1, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/body/_body.scss */
+/* line 1, sass/body/_body.scss */
 .site {
   border: none;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -882,12 +883,12 @@ textarea {
 /*--------------------------------------------------------------
 10.0 Header
 --------------------------------------------------------------*/
-/* line 1, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/header/_header.scss */
+/* line 1, sass/header/_header.scss */
 .site-header {
   background-color: transparent;
 }
 
-/* line 5, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/header/_header.scss */
+/* line 5, sass/header/_header.scss */
 .site-branding {
   clear: both;
   /* We define a list of values for both units */
@@ -906,7 +907,7 @@ textarea {
   /* We output the result */
 }
 
-/* line 10, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/header/_header.scss */
+/* line 10, sass/header/_header.scss */
 h1.site-title {
   margin-left: -2px;
   font-family: sans-serif;
@@ -914,13 +915,13 @@ h1.site-title {
   font-size: 4.8rem;
   line-height: 1;
 }
-/* line 17, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/header/_header.scss */
+/* line 17, sass/header/_header.scss */
 h1.site-title a,
 h1.site-title a:visited {
   text-decoration: none;
   color: royalblue;
 }
-/* line 24, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/header/_header.scss */
+/* line 24, sass/header/_header.scss */
 h1.site-title a:hover,
 h1.site-title a:focus,
 h1.site-title a:active {
@@ -928,7 +929,7 @@ h1.site-title a:active {
   color: midnightblue;
 }
 
-/* line 30, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/header/_header.scss */
+/* line 30, sass/header/_header.scss */
 h2.site-description {
   font-family: sans-serif;
   font-size: 16px;
@@ -939,7 +940,7 @@ h2.site-description {
 
 /* 10.1 Navigation Menus
 ----------------------------------------------------------*/
-/* line 2, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/header/_menus.scss */
+/* line 2, sass/header/_menus.scss */
 .main-navigation,
 .top-navigation {
   clear: both;
@@ -947,14 +948,14 @@ h2.site-description {
   float: left;
   width: 100%;
 }
-/* line 8, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/header/_menus.scss */
+/* line 8, sass/header/_menus.scss */
 .main-navigation ul,
 .top-navigation ul {
   margin: 0;
   padding-left: 0;
   list-style: none;
 }
-/* line 13, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/header/_menus.scss */
+/* line 13, sass/header/_menus.scss */
 .main-navigation ul ul,
 .top-navigation ul ul {
   z-index: 99999;
@@ -962,7 +963,7 @@ h2.site-description {
   float: left;
   left: -999em;
 }
-/* line 19, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/header/_menus.scss */
+/* line 19, sass/header/_menus.scss */
 .main-navigation ul ul ul,
 .top-navigation ul ul ul {
   top: 0;
@@ -978,23 +979,23 @@ h2.site-description {
   margin-top: -0.1rem;
   /* We output the result */
 }
-/* line 26, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/header/_menus.scss */
+/* line 26, sass/header/_menus.scss */
 .main-navigation ul ul li:hover > ul,
 .top-navigation ul ul li:hover > ul {
   left: 100%;
 }
-/* line 41, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/header/_menus.scss */
+/* line 41, sass/header/_menus.scss */
 .main-navigation ul li:hover > ul,
 .top-navigation ul li:hover > ul {
   left: auto;
 }
-/* line 46, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/header/_menus.scss */
+/* line 46, sass/header/_menus.scss */
 .main-navigation li,
 .top-navigation li {
   float: left;
   position: relative;
 }
-/* line 54, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/header/_menus.scss */
+/* line 54, sass/header/_menus.scss */
 .main-navigation a,
 .top-navigation a {
   display: block;
@@ -1002,7 +1003,7 @@ h2.site-description {
 
 /* 10.2 Top Navigation
 ----------------------------------------------------------*/
-/* line 1, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/header/_extra-navigation.scss */
+/* line 1, sass/header/_extra-navigation.scss */
 .top-navigation {
   /* We define a list of values for both units */
   /* We define a list of values for both units */
@@ -1020,11 +1021,11 @@ h2.site-description {
   border-bottom: none;
   background-color: white;
 }
-/* line 7, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/header/_extra-navigation.scss */
+/* line 7, sass/header/_extra-navigation.scss */
 .top-navigation ul {
   float: right;
 }
-/* line 10, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/header/_extra-navigation.scss */
+/* line 10, sass/header/_extra-navigation.scss */
 .top-navigation ul ul {
   /* We define a list of values for both units */
   /* We define a list of values for both units */
@@ -1040,7 +1041,7 @@ h2.site-description {
   background-color: white;
   background-color: white;
 }
-/* line 16, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/header/_extra-navigation.scss */
+/* line 16, sass/header/_extra-navigation.scss */
 .top-navigation ul ul a {
   width: 120px;
   /* We define a list of values for both units */
@@ -1058,12 +1059,12 @@ h2.site-description {
   padding: 0.25rem 1rem;
   /* We output the result */
 }
-/* line 31, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/header/_extra-navigation.scss */
+/* line 31, sass/header/_extra-navigation.scss */
 .top-navigation li:hover > a {
   background-color: gray;
   color: midnightblue;
 }
-/* line 37, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/header/_extra-navigation.scss */
+/* line 37, sass/header/_extra-navigation.scss */
 .top-navigation a {
   /* We define a list of values for both units */
   /* We define a list of values for both units */
@@ -1086,11 +1087,11 @@ h2.site-description {
   text-decoration: none;
   color: royalblue;
 }
-/* line 45, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/header/_extra-navigation.scss */
+/* line 45, sass/header/_extra-navigation.scss */
 .top-navigation a:visited {
   color: royalblue;
 }
-/* line 52, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/header/_extra-navigation.scss */
+/* line 52, sass/header/_extra-navigation.scss */
 .top-navigation .current_page_item > a,
 .top-navigation .current-menu-item > a,
 .top-navigation .current_page_ancestor > a {
@@ -1100,7 +1101,7 @@ h2.site-description {
 
 /* 10.3 Primary Navigation
 ----------------------------------------------------------*/
-/* line 1, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/header/_site-navigation.scss */
+/* line 1, sass/header/_site-navigation.scss */
 .main-navigation {
   /* We define a list of values for both units */
   /* We define a list of values for both units */
@@ -1118,7 +1119,7 @@ h2.site-description {
   border-bottom: 1px solid gray;
   background-color: white;
 }
-/* line 9, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/header/_site-navigation.scss */
+/* line 9, sass/header/_site-navigation.scss */
 .main-navigation ul ul {
   /* We define a list of values for both units */
   /* We define a list of values for both units */
@@ -1134,7 +1135,7 @@ h2.site-description {
   background-color: white;
   background-color: white;
 }
-/* line 15, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/header/_site-navigation.scss */
+/* line 15, sass/header/_site-navigation.scss */
 .main-navigation ul ul a {
   width: 160px;
   /* We define a list of values for both units */
@@ -1152,12 +1153,12 @@ h2.site-description {
   padding: 0.5rem 2rem;
   /* We output the result */
 }
-/* line 30, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/header/_site-navigation.scss */
+/* line 30, sass/header/_site-navigation.scss */
 .main-navigation li:hover > a {
   background-color: gray;
   color: midnightblue;
 }
-/* line 36, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/header/_site-navigation.scss */
+/* line 36, sass/header/_site-navigation.scss */
 .main-navigation a {
   /* We define a list of values for both units */
   /* We define a list of values for both units */
@@ -1180,11 +1181,11 @@ h2.site-description {
   text-decoration: none;
   color: royalblue;
 }
-/* line 44, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/header/_site-navigation.scss */
+/* line 44, sass/header/_site-navigation.scss */
 .main-navigation a:visited {
   color: royalblue;
 }
-/* line 51, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/header/_site-navigation.scss */
+/* line 51, sass/header/_site-navigation.scss */
 .main-navigation .current_page_item > a,
 .main-navigation .current-menu-item > a,
 .main-navigation .current_page_ancestor > a {
@@ -1193,19 +1194,19 @@ h2.site-description {
 }
 
 /* Small menu */
-/* line 58, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/header/_site-navigation.scss */
+/* line 58, sass/header/_site-navigation.scss */
 .menu-toggle {
   display: none;
 }
 
 @media screen and (max-width: 600px) {
-  /* line 64, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/header/_site-navigation.scss */
+  /* line 64, sass/header/_site-navigation.scss */
   .menu-toggle,
   .main-navigation.toggled .nav-menu {
     display: block;
   }
 
-  /* line 68, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/header/_site-navigation.scss */
+  /* line 68, sass/header/_site-navigation.scss */
   .main-navigation ul {
     display: none;
   }
@@ -1213,7 +1214,7 @@ h2.site-description {
 /*--------------------------------------------------------------
 11.0 Content
 --------------------------------------------------------------*/
-/* line 1, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/content/_content.scss */
+/* line 1, sass/content/_content.scss */
 .site-main {
   /* We define a list of values for both units */
   /* We define a list of values for both units */
@@ -1231,7 +1232,7 @@ h2.site-description {
   background-color: white;
 }
 
-/* line 9, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/content/_content.scss */
+/* line 9, sass/content/_content.scss */
 .page-header {
   background: #f6f6f6;
   /* We define a list of values for both units */
@@ -1261,21 +1262,21 @@ h2.site-description {
   padding: 3rem;
   /* We output the result */
 }
-/* line 14, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/content/_content.scss */
+/* line 14, sass/content/_content.scss */
 .page-header .page-title {
   font-weight: bold;
 }
-/* line 18, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/content/_content.scss */
+/* line 18, sass/content/_content.scss */
 .page-header p {
   margin: 0;
 }
 
-/* line 23, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/content/_content.scss */
+/* line 23, sass/content/_content.scss */
 .sticky {
   display: block;
 }
 
-/* line 27, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/content/_content.scss */
+/* line 27, sass/content/_content.scss */
 .hentry {
   /* We define a list of values for both units */
   /* We define a list of values for both units */
@@ -1289,7 +1290,7 @@ h2.site-description {
   /* We output the result */
 }
 
-/* line 31, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/content/_content.scss */
+/* line 31, sass/content/_content.scss */
 img.wp-post-image {
   display: block;
   /* We define a list of values for both units */
@@ -1308,12 +1309,12 @@ img.wp-post-image {
   /* We output the result */
 }
 
-/* line 36, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/content/_content.scss */
+/* line 36, sass/content/_content.scss */
 .home .entry-header {
   display: none;
 }
 
-/* line 40, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/content/_content.scss */
+/* line 40, sass/content/_content.scss */
 .entry-header {
   /* We define a list of values for both units */
   /* We define a list of values for both units */
@@ -1327,17 +1328,17 @@ img.wp-post-image {
   /* We output the result */
 }
 
-/* line 44, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/content/_content.scss */
+/* line 44, sass/content/_content.scss */
 h1.entry-title {
   margin-left: -2px;
 }
-/* line 48, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/content/_content.scss */
+/* line 48, sass/content/_content.scss */
 h1.entry-title a,
 h1.entry-title a:visited {
   text-decoration: none;
   color: royalblue;
 }
-/* line 55, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/content/_content.scss */
+/* line 55, sass/content/_content.scss */
 h1.entry-title a:hover,
 h1.entry-title a:focus,
 h1.entry-title a:active {
@@ -1345,14 +1346,14 @@ h1.entry-title a:active {
   color: midnightblue;
 }
 
-/* line 61, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/content/_content.scss */
+/* line 61, sass/content/_content.scss */
 .entry-meta {
   font-family: sans-serif;
   font-size: 14px;
   font-size: 1.4rem;
   color: gray;
 }
-/* line 66, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/content/_content.scss */
+/* line 66, sass/content/_content.scss */
 .entry-meta .edit-link {
   /* We define a list of values for both units */
   /* We define a list of values for both units */
@@ -1366,25 +1367,25 @@ h1.entry-title a:active {
   /* We output the result */
 }
 
-/* line 72, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/content/_content.scss */
+/* line 72, sass/content/_content.scss */
 .byline,
 .updated:not(.published) {
   display: none;
 }
 
-/* line 77, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/content/_content.scss */
+/* line 77, sass/content/_content.scss */
 .single .byline,
 .group-blog .byline {
   display: inline;
 }
 
-/* line 83, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/content/_content.scss */
+/* line 83, sass/content/_content.scss */
 .page-content,
 .entry-content,
 .entry-summary {
   text-align: justify;
 }
-/* line 91, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/content/_content.scss */
+/* line 91, sass/content/_content.scss */
 .page-content h1,
 .page-content h2,
 .page-content h3,
@@ -1416,7 +1417,7 @@ h1.entry-title a:active {
   padding: 2rem 0;
   /* We output the result */
 }
-/* line 95, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/content/_content.scss */
+/* line 95, sass/content/_content.scss */
 .page-content p,
 .entry-content p,
 .entry-summary p {
@@ -1432,14 +1433,14 @@ h1.entry-title a:active {
   /* We output the result */
 }
 
-/* line 100, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/content/_content.scss */
+/* line 100, sass/content/_content.scss */
 .entry-footer {
   font-family: sans-serif;
   font-size: 14px;
   font-size: 1.4rem;
   color: gray;
 }
-/* line 105, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/content/_content.scss */
+/* line 105, sass/content/_content.scss */
 .entry-footer span {
   display: inline-block;
   /* We define a list of values for both units */
@@ -1453,14 +1454,14 @@ h1.entry-title a:active {
   margin-right: 2rem;
   /* We output the result */
 }
-/* line 110, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/content/_content.scss */
+/* line 110, sass/content/_content.scss */
 .entry-footer .edit-link {
   margin-right: 0;
 }
 
 /* 11.1 Asides
 ----------------------------------------------------------*/
-/* line 2, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/content/_asides.scss */
+/* line 2, sass/content/_asides.scss */
 .blog .format-aside .entry-title,
 .archive .format-aside .entry-title {
   display: none;
@@ -1468,7 +1469,7 @@ h1.entry-title a:active {
 
 /* 11.2 Navigation
 ----------------------------------------------------------*/
-/* line 3, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/content/_navigation.scss */
+/* line 3, sass/content/_navigation.scss */
 .site-main .comment-navigation,
 .site-main .paging-navigation,
 .site-main .post-navigation {
@@ -1486,7 +1487,7 @@ h1.entry-title a:active {
   /* We output the result */
 }
 
-/* line 11, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/content/_navigation.scss */
+/* line 11, sass/content/_navigation.scss */
 .comment-navigation .nav-previous,
 .paging-navigation .nav-previous,
 .post-navigation .nav-previous {
@@ -1494,7 +1495,7 @@ h1.entry-title a:active {
   width: 50%;
 }
 
-/* line 18, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/content/_navigation.scss */
+/* line 18, sass/content/_navigation.scss */
 .comment-navigation .nav-next,
 .paging-navigation .nav-next,
 .post-navigation .nav-next {
@@ -1503,7 +1504,7 @@ h1.entry-title a:active {
   width: 50%;
 }
 
-/* line 24, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/content/_navigation.scss */
+/* line 24, sass/content/_navigation.scss */
 .page-links {
   clear: both;
   /* We define a list of values for both units */
@@ -1518,19 +1519,19 @@ h1.entry-title a:active {
   /* We output the result */
   font-weight: bold;
 }
-/* line 29, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/content/_navigation.scss */
+/* line 29, sass/content/_navigation.scss */
 .page-links a {
   text-decoration: none;
 }
 
-/* line 34, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/content/_navigation.scss */
+/* line 34, sass/content/_navigation.scss */
 .post-navigation {
   display: none;
 }
 
 /* 11.3 Comments
 ----------------------------------------------------------*/
-/* line 1, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/content/_comments.scss */
+/* line 1, sass/content/_comments.scss */
 .comments-area {
   /* We define a list of values for both units */
   /* We define a list of values for both units */
@@ -1546,7 +1547,7 @@ h1.entry-title a:active {
   font-size: 14px;
   font-size: 1.4rem;
 }
-/* line 6, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/content/_comments.scss */
+/* line 6, sass/content/_comments.scss */
 .comments-area h2.comments-title {
   margin-left: -1px;
   /* Fixes larger font alignment with smaller fonts */
@@ -1554,12 +1555,12 @@ h1.entry-title a:active {
   font-size: 2rem;
   line-height: 1.3;
 }
-/* line 12, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/content/_comments.scss */
+/* line 12, sass/content/_comments.scss */
 .comments-area ol.comment-list {
   margin: 0;
   list-style: none;
 }
-/* line 16, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/content/_comments.scss */
+/* line 16, sass/content/_comments.scss */
 .comments-area ol.comment-list ol.children {
   /* We define a list of values for both units */
   /* We define a list of values for both units */
@@ -1585,7 +1586,7 @@ h1.entry-title a:active {
   /* We output the result */
   list-style: none;
 }
-/* line 21, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/content/_comments.scss */
+/* line 21, sass/content/_comments.scss */
 .comments-area ol.comment-list li.comment {
   /* We define a list of values for both units */
   /* We define a list of values for both units */
@@ -1598,21 +1599,21 @@ h1.entry-title a:active {
   padding: 1rem;
   /* We output the result */
 }
-/* line 25, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/content/_comments.scss */
+/* line 25, sass/content/_comments.scss */
 .comments-area ol.comment-list li.even {
   background: #f6f6f6;
 }
-/* line 29, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/content/_comments.scss */
+/* line 29, sass/content/_comments.scss */
 .comments-area ol.comment-list li.odd {
   background: white;
 }
 
-/* line 35, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/content/_comments.scss */
+/* line 35, sass/content/_comments.scss */
 .comment-author {
   font-size: 16px;
   font-size: 1.6rem;
 }
-/* line 38, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/content/_comments.scss */
+/* line 38, sass/content/_comments.scss */
 .comment-author img.avatar {
   float: left;
   /* We define a list of values for both units */
@@ -1635,19 +1636,19 @@ h1.entry-title a:active {
   /* We output the result */
 }
 
-/* line 44, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/content/_comments.scss */
+/* line 44, sass/content/_comments.scss */
 .bypostauthor {
   /* Comments by post author */
   display: block;
   border-top: 5px solid #eeeeee;
   background-color: transparent;
 }
-/* line 49, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/content/_comments.scss */
+/* line 49, sass/content/_comments.scss */
 .bypostauthor .fn {
   color: inherit;
 }
 
-/* line 54, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/content/_comments.scss */
+/* line 54, sass/content/_comments.scss */
 .comment-metadata .edit-link {
   /* We define a list of values for both units */
   /* We define a list of values for both units */
@@ -1661,11 +1662,11 @@ h1.entry-title a:active {
   /* We output the result */
 }
 
-/* line 58, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/content/_comments.scss */
+/* line 58, sass/content/_comments.scss */
 .comment-content {
   clear: both;
 }
-/* line 61, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/content/_comments.scss */
+/* line 61, sass/content/_comments.scss */
 .comment-content p {
   /* We define a list of values for both units */
   /* We define a list of values for both units */
@@ -1678,12 +1679,12 @@ h1.entry-title a:active {
   margin-bottom: 1rem;
   /* We output the result */
 }
-/* line 65, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/content/_comments.scss */
+/* line 65, sass/content/_comments.scss */
 .comment-content a {
   word-wrap: break-word;
 }
 
-/* line 71, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/content/_comments.scss */
+/* line 71, sass/content/_comments.scss */
 .comment-respond {
   /* We define a list of values for both units */
   /* We define a list of values for both units */
@@ -1696,7 +1697,7 @@ h1.entry-title a:active {
   margin-top: 2rem;
   /* We output the result */
 }
-/* line 74, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/content/_comments.scss */
+/* line 74, sass/content/_comments.scss */
 .comment-respond h3 {
   margin-left: -1px;
   /* Fixes larger font alignment with smaller fonts */
@@ -1704,7 +1705,7 @@ h1.entry-title a:active {
   font-size: 2rem;
   line-height: 1.3;
 }
-/* line 80, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/content/_comments.scss */
+/* line 80, sass/content/_comments.scss */
 .comment-respond p {
   /* We define a list of values for both units */
   /* We define a list of values for both units */
@@ -1717,16 +1718,16 @@ h1.entry-title a:active {
   margin-bottom: 1rem;
   /* We output the result */
 }
-/* line 84, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/content/_comments.scss */
+/* line 84, sass/content/_comments.scss */
 .comment-respond p.form-submit {
   margin-bottom: 0;
 }
-/* line 88, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/content/_comments.scss */
+/* line 88, sass/content/_comments.scss */
 .comment-respond label {
   display: inline-block;
   width: 70px;
 }
-/* line 94, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/content/_comments.scss */
+/* line 94, sass/content/_comments.scss */
 .comment-respond .form-allowed-tags,
 .comment-respond .form-allowed-tags code {
   font-size: 14px;
@@ -1736,7 +1737,7 @@ h1.entry-title a:active {
 
 /* 11.4 404
 ----------------------------------------------------------*/
-/* line 1, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/content/_404.scss */
+/* line 1, sass/content/_404.scss */
 .error-404 {
   /* We define a list of values for both units */
   /* We define a list of values for both units */
@@ -1749,11 +1750,11 @@ h1.entry-title a:active {
   padding: 3rem;
   /* We output the result */
 }
-/* line 4, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/content/_404.scss */
+/* line 4, sass/content/_404.scss */
 .error-404 .entry-title {
   text-align: center;
 }
-/* line 8, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/content/_404.scss */
+/* line 8, sass/content/_404.scss */
 .error-404 .entry-content {
   text-align: center;
 }
@@ -1761,18 +1762,18 @@ h1.entry-title a:active {
 /*--------------------------------------------------------------
 12.0 Sidebars
 --------------------------------------------------------------*/
-/* line 1, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/sidebars/_sidebars.scss */
+/* line 1, sass/sidebars/_sidebars.scss */
 .widget-title {
   display: inline-block;
   width: 100%;
 }
 
-/* line 6, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/sidebars/_sidebars.scss */
+/* line 6, sass/sidebars/_sidebars.scss */
 .widget ul {
   margin: 0;
   list-style: none;
 }
-/* line 10, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/sidebars/_sidebars.scss */
+/* line 10, sass/sidebars/_sidebars.scss */
 .widget ul ul {
   /* We define a list of values for both units */
   /* We define a list of values for both units */
@@ -1787,7 +1788,7 @@ h1.entry-title a:active {
   list-style-type: circle;
 }
 
-/* line 16, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/sidebars/_sidebars.scss */
+/* line 16, sass/sidebars/_sidebars.scss */
 .widget ol {
   /* We define a list of values for both units */
   /* We define a list of values for both units */
@@ -1808,60 +1809,60 @@ h1.entry-title a:active {
   list-style-type: decimal;
 }
 
-/* line 21, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/sidebars/_sidebars.scss */
+/* line 21, sass/sidebars/_sidebars.scss */
 .widget select {
   max-width: 100%;
 }
 
 /* 12.1 Widgets
 ----------------------------------------------------------*/
-/* line 1, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/sidebars/_widgets.scss */
+/* line 1, sass/sidebars/_widgets.scss */
 .widget_search .search-submit {
   display: none;
 }
 
-/* line 5, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/sidebars/_widgets.scss */
+/* line 5, sass/sidebars/_widgets.scss */
 .tagcloud {
   text-align: justify;
 }
 
-/* line 9, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/sidebars/_widgets.scss */
+/* line 9, sass/sidebars/_widgets.scss */
 table#wp-calendar {
   margin: 0;
   border: none;
 }
-/* line 14, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/sidebars/_widgets.scss */
+/* line 14, sass/sidebars/_widgets.scss */
 table#wp-calendar th,
 table#wp-calendar td {
   border: none;
   text-align: center;
 }
-/* line 20, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/sidebars/_widgets.scss */
+/* line 20, sass/sidebars/_widgets.scss */
 table#wp-calendar tfoot,
 table#wp-calendar tfoot td {
   border: none;
 }
-/* line 24, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/sidebars/_widgets.scss */
+/* line 24, sass/sidebars/_widgets.scss */
 table#wp-calendar td#prev {
   text-align: left;
 }
-/* line 28, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/sidebars/_widgets.scss */
+/* line 28, sass/sidebars/_widgets.scss */
 table#wp-calendar td#next {
   text-align: right;
 }
-/* line 32, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/sidebars/_widgets.scss */
+/* line 32, sass/sidebars/_widgets.scss */
 table#wp-calendar a {
   font-weight: bold;
 }
 
 /* 12.2 Sidebar Widget Area
 ----------------------------------------------------------*/
-/* line 1, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/sidebars/_secondary.scss */
+/* line 1, sass/sidebars/_secondary.scss */
 .content-area {
   background-color: #f6f6f6;
 }
 
-/* line 5, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/sidebars/_secondary.scss */
+/* line 5, sass/sidebars/_secondary.scss */
 #secondary {
   /* We define a list of values for both units */
   /* We define a list of values for both units */
@@ -1885,7 +1886,7 @@ table#wp-calendar a {
   font-size: 1.4rem;
   background-color: #f6f6f6;
 }
-/* line 12, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/sidebars/_secondary.scss */
+/* line 12, sass/sidebars/_secondary.scss */
 #secondary .widget {
   overflow: hidden;
   /* We define a list of values for both units */
@@ -1899,7 +1900,7 @@ table#wp-calendar a {
   margin-bottom: 3rem;
   /* We output the result */
 }
-/* line 18, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/sidebars/_secondary.scss */
+/* line 18, sass/sidebars/_secondary.scss */
 #secondary .widget-title,
 #secondary .widget_calendar caption {
   border-bottom: 1px solid gray;
@@ -1908,14 +1909,20 @@ table#wp-calendar a {
   font-size: 1.6rem;
   font-weight: bold;
 }
-/* line 25, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/sidebars/_secondary.scss */
+/* line 25, sass/sidebars/_secondary.scss */
 #secondary a {
   text-decoration: none;
 }
 
 /* 12.3 Footer Widget Area
 ----------------------------------------------------------*/
-/* line 1, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/sidebars/_tertiary.scss */
+/* line 1, sass/sidebars/_tertiary.scss */
+#footer-primary {
+  border-top: 1px solid gray;
+  background-color: #f6f6f6;
+}
+
+/* line 6, sass/sidebars/_tertiary.scss */
 #tertiary {
   /* We define a list of values for both units */
   /* We define a list of values for both units */
@@ -1927,13 +1934,12 @@ table#wp-calendar a {
   /* We output the result */
   padding: 3rem;
   /* We output the result */
-  border-top: 1px solid gray;
   font-family: sans-serif;
   font-size: 14px;
   font-size: 1.4rem;
-  background-color: #f6f6f6;
+  color: #404040;
 }
-/* line 8, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/sidebars/_tertiary.scss */
+/* line 12, sass/sidebars/_tertiary.scss */
 #tertiary .widget {
   float: left;
   overflow: hidden;
@@ -1949,7 +1955,7 @@ table#wp-calendar a {
   padding: 3rem;
   /* We output the result */
 }
-/* line 16, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/sidebars/_tertiary.scss */
+/* line 20, sass/sidebars/_tertiary.scss */
 #tertiary .widget-title,
 #tertiary .widget_calendar caption {
   border-bottom: 1px solid gray;
@@ -1958,7 +1964,7 @@ table#wp-calendar a {
   font-size: 1.6rem;
   font-weight: bold;
 }
-/* line 23, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/sidebars/_tertiary.scss */
+/* line 27, sass/sidebars/_tertiary.scss */
 #tertiary a {
   text-decoration: none;
 }
@@ -1966,7 +1972,7 @@ table#wp-calendar a {
 /*--------------------------------------------------------------
 13.0 Footer
 --------------------------------------------------------------*/
-/* line 1, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/footer/_footer.scss */
+/* line 1, sass/footer/_footer.scss */
 .site-footer .site-info {
   /* We define a list of values for both units */
   /* We define a list of values for both units */
@@ -1982,10 +1988,11 @@ table#wp-calendar a {
   font-family: Georgia, serif;
   font-size: 12px;
   font-size: 1.2rem;
+  color: #404040;
   text-align: center;
   background-color: white;
 }
-/* line 9, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/footer/_footer.scss */
+/* line 10, sass/footer/_footer.scss */
 .site-footer .site-info a {
   text-decoration: none;
 }
@@ -1994,7 +2001,7 @@ table#wp-calendar a {
 14.0 Infinite scroll
 --------------------------------------------------------------*/
 /* Globally hidden elements when Infinite Scroll is supported and in use. */
-/* line 3, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/modules/_infinite-scroll.scss */
+/* line 3, sass/modules/_infinite-scroll.scss */
 .infinite-scroll .paging-navigation,
 .infinite-scroll.neverending .site-footer {
   /* Theme Footer (when set to scrolling) */
@@ -2002,7 +2009,7 @@ table#wp-calendar a {
 }
 
 /* When Infinite Scroll has reached its end we need to re-display elements that were hidden (via .neverending) before */
-/* line 8, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/modules/_infinite-scroll.scss */
+/* line 8, sass/modules/_infinite-scroll.scss */
 .infinity-end.neverending .site-footer {
   display: block;
 }
@@ -2010,7 +2017,7 @@ table#wp-calendar a {
 /*--------------------------------------------------------------
 15.0 Media
 --------------------------------------------------------------*/
-/* line 1, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/media/_media.scss */
+/* line 1, sass/media/_media.scss */
 img {
   height: auto;
   /* Make sure images are scaled correctly. */
@@ -2018,7 +2025,7 @@ img {
   /* Adhere to container width. */
 }
 
-/* line 6, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/media/_media.scss */
+/* line 6, sass/media/_media.scss */
 figure {
   /* We define a list of values for both units */
   /* We define a list of values for both units */
@@ -2037,7 +2044,7 @@ figure {
   line-height: 0;
 }
 
-/* line 13, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/media/_media.scss */
+/* line 13, sass/media/_media.scss */
 .page-content img.wp-smiley,
 .entry-content img.wp-smiley,
 .comment-content img.wp-smiley {
@@ -2048,7 +2055,7 @@ figure {
 }
 
 /* Make sure embeds and iframes fit their containers */
-/* line 23, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/media/_media.scss */
+/* line 23, sass/media/_media.scss */
 embed,
 iframe,
 object {
@@ -2057,7 +2064,7 @@ object {
 
 /* 15.1 Captions
 ----------------------------------------------------------*/
-/* line 1, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/media/_captions.scss */
+/* line 1, sass/media/_captions.scss */
 .wp-caption {
   /* We define a list of values for both units */
   /* We define a list of values for both units */
@@ -2071,12 +2078,12 @@ object {
   /* We output the result */
   max-width: 100%;
 }
-/* line 5, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/media/_captions.scss */
+/* line 5, sass/media/_captions.scss */
 .wp-caption img[class*="wp-image-"] {
   display: block;
   margin: 0 auto;
 }
-/* line 9, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/media/_captions.scss */
+/* line 9, sass/media/_captions.scss */
 .wp-caption .wp-caption-text {
   margin: 0;
   font-size: 14px;
@@ -2084,19 +2091,19 @@ object {
   font-style: italic;
 }
 
-/* line 16, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/media/_captions.scss */
+/* line 16, sass/media/_captions.scss */
 .wp-caption-text {
   text-align: center;
 }
 
 /* 15.2 Galleries
 ----------------------------------------------------------*/
-/* line 1, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/media/_galleries.scss */
+/* line 1, sass/media/_galleries.scss */
 .gallery {
   margin-bottom: 2rem;
 }
 
-/* line 5, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/media/_galleries.scss */
+/* line 5, sass/media/_galleries.scss */
 .gallery-item {
   display: inline-block;
   width: 100%;
@@ -2105,47 +2112,57 @@ object {
   vertical-align: top;
 }
 
-/* line 13, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/media/_galleries.scss */
+/* line 13, sass/media/_galleries.scss */
 .gallery-columns-2 .gallery-item {
   max-width: 50%;
 }
 
-/* line 17, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/media/_galleries.scss */
+/* line 17, sass/media/_galleries.scss */
 .gallery-columns-3 .gallery-item {
   max-width: 33.33%;
 }
 
-/* line 21, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/media/_galleries.scss */
+/* line 21, sass/media/_galleries.scss */
 .gallery-columns-4 .gallery-item {
   max-width: 25%;
 }
 
-/* line 25, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/media/_galleries.scss */
+/* line 25, sass/media/_galleries.scss */
 .gallery-columns-5 .gallery-item {
   max-width: 20%;
 }
 
-/* line 29, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/media/_galleries.scss */
+/* line 29, sass/media/_galleries.scss */
 .gallery-columns-6 .gallery-item {
   max-width: 16.66%;
 }
 
-/* line 33, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/media/_galleries.scss */
+/* line 33, sass/media/_galleries.scss */
 .gallery-columns-7 .gallery-item {
   max-width: 14.28%;
 }
 
-/* line 37, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/media/_galleries.scss */
+/* line 37, sass/media/_galleries.scss */
 .gallery-columns-8 .gallery-item {
   max-width: 12.5%;
 }
 
-/* line 41, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/media/_galleries.scss */
+/* line 41, sass/media/_galleries.scss */
 .gallery-columns-9 .gallery-item {
   max-width: 11.11%;
 }
 
-/* line 45, F:/xampp/htdocs/wordpress/wp-content/themes/marker/sass/media/_galleries.scss */
+/* line 45, sass/media/_galleries.scss */
 .gallery-caption {
   display: block;
+}
+
+/*--------------------------------------------------------------
+16.0 Plugins
+--------------------------------------------------------------*/
+/* line 1, sass/plugins/_plugins.scss */
+.ninja-forms-required-items {
+  float: right;
+  font-size: small;
+  font-style: italic;
 }
