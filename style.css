@@ -1457,7 +1457,7 @@ h1.entry-title a:active {
 ----------------------------------------------------------*/
 /* line 3, sass/content/_navigation.scss */
 .site-main .comment-navigation,
-.site-main .paging-navigation,
+.site-main .posts-navigation,
 .site-main .post-navigation {
   clear: both;
   overflow: hidden;
@@ -1475,7 +1475,7 @@ h1.entry-title a:active {
 
 /* line 11, sass/content/_navigation.scss */
 .comment-navigation .nav-previous,
-.paging-navigation .nav-previous,
+.posts-navigation .nav-previous,
 .post-navigation .nav-previous {
   float: left;
   width: 50%;
@@ -1483,7 +1483,7 @@ h1.entry-title a:active {
 
 /* line 18, sass/content/_navigation.scss */
 .comment-navigation .nav-next,
-.paging-navigation .nav-next,
+.posts-navigation .nav-next,
 .post-navigation .nav-next {
   float: right;
   text-align: right;
@@ -1988,7 +1988,7 @@ table#wp-calendar a {
 --------------------------------------------------------------*/
 /* Globally hidden elements when Infinite Scroll is supported and in use. */
 /* line 3, sass/modules/_infinite-scroll.scss */
-.infinite-scroll .paging-navigation,
+.infinite-scroll .posts-navigation,
 .infinite-scroll.neverending .site-footer {
   /* Theme Footer (when set to scrolling) */
   display: none;
