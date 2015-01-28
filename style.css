@@ -820,7 +820,8 @@ textarea {
 /* line 13, sass/modules/_alignments.scss */
 .aligncenter {
   display: block;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /*--------------------------------------------------------------
@@ -2067,7 +2068,8 @@ object {
 /* line 5, sass/media/_captions.scss */
 .wp-caption img[class*="wp-image-"] {
   display: block;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 /* line 9, sass/media/_captions.scss */
 .wp-caption .wp-caption-text {
