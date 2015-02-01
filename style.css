@@ -68,64 +68,19 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 /*--------------------------------------------------------------
 1.0 Normalize
 --------------------------------------------------------------*/
-<<<<<<< HEAD
-/* line 8, sass/_reset.scss */
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, font, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td {
-  border: 0;
-  font-family: inherit;
-  font-size: 100%;
-  font-style: inherit;
-  font-weight: inherit;
-  margin: 0;
-  outline: 0;
-  padding: 0;
-  vertical-align: baseline;
-}
-
-/* line 19, sass/_reset.scss */
+/* line 1, sass/_normalize.scss */
 html {
-  font-size: 62.5%;
-  /* Corrects text resizing oddly in IE6/7 when body font-size is set using em units http://clagnut.com/blog/348/#c790 */
-  overflow-y: scroll;
-  /* Keeps page centered in all browsers regardless of content height */
+  font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
-  /* Prevents iOS text size adjust after orientation change, without disabling user zoom */
   -ms-text-size-adjust: 100%;
-  /* www.456bereastreet.com/archive/201012/controlling_text_size_in_safari_for_ios_without_disabling_user_zoom/ */
 }
 
-/* line 27, sass/_reset.scss */
-*,
-*:before,
-*:after {
-  /* apply a natural box layout model to all elements; see http://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
-  box-sizing: border-box;
-=======
-html {
-	font-family: sans-serif;
-	-webkit-text-size-adjust: 100%;
-	-ms-text-size-adjust:     100%;
->>>>>>> 6c47be9... Normalize rather than Reset.
-}
-
-/* line 30, sass/_reset.scss */
+/* line 7, sass/_normalize.scss */
 body {
-<<<<<<< HEAD
-  background: #eeeeee;
-  /* Fallback for when there is no custom background color defined. */
-=======
-	margin: 0;
->>>>>>> 6c47be9... Normalize rather than Reset.
+  margin: 0;
 }
 
-/* line 42, sass/_reset.scss */
+/* line 22, sass/_normalize.scss */
 article,
 aside,
 details,
@@ -136,250 +91,237 @@ header,
 main,
 menu,
 nav,
-<<<<<<< HEAD
-section {
+section,
+summary {
   display: block;
 }
 
-/* line 45, sass/_reset.scss */
-ol, ul {
-  list-style: none;
-}
-
-/* line 48, sass/_reset.scss */
-table {
-  /* tables still need 'cellspacing="0"' in the markup */
-  border-collapse: separate;
-  border-spacing: 0;
-}
-
-/* line 52, sass/_reset.scss */
-caption, th, td {
-  font-weight: normal;
-  text-align: left;
-}
-
-/* line 57, sass/_reset.scss */
-blockquote:before, blockquote:after,
-q:before, q:after {
-  content: "";
-}
-
-/* line 60, sass/_reset.scss */
-blockquote, q {
-  quotes: "" "";
-}
-
-/* line 63, sass/_reset.scss */
-a:focus {
-  outline: thin dotted;
-}
-
-/* line 67, sass/_reset.scss */
-a:hover,
-a:active {
-  outline: 0;
-}
-
-/* line 70, sass/_reset.scss */
-a img {
-  border: 0;
-=======
-section,
-summary {
-	display: block;
-}
-
+/* line 29, sass/_normalize.scss */
 audio,
 canvas,
 progress,
 video {
-	display: inline-block;
-	vertical-align: baseline;
+  display: inline-block;
+  vertical-align: baseline;
 }
 
+/* line 34, sass/_normalize.scss */
 audio:not([controls]) {
-	display: none;
-	height: 0;
+  display: none;
+  height: 0;
 }
 
+/* line 40, sass/_normalize.scss */
 [hidden],
 template {
-	display: none;
+  display: none;
 }
 
+/* line 44, sass/_normalize.scss */
 a {
-	background-color: transparent;
+  background-color: transparent;
 }
 
+/* line 49, sass/_normalize.scss */
 a:active,
 a:hover {
-	outline: 0;
+  outline: 0;
 }
 
+/* line 53, sass/_normalize.scss */
 abbr[title] {
-	border-bottom: 1px dotted;
+  border-bottom: 1px dotted;
 }
 
+/* line 58, sass/_normalize.scss */
 b,
 strong {
-	font-weight: bold;
+  font-weight: bold;
 }
 
+/* line 62, sass/_normalize.scss */
 dfn {
-	font-style: italic;
+  font-style: italic;
 }
 
+/* line 66, sass/_normalize.scss */
 h1 {
-	font-size: 2em;
-	margin: 0.67em 0;
+  font-size: 2em;
+  margin: 0.67em 0;
 }
 
+/* line 71, sass/_normalize.scss */
 mark {
-	background: #ff0;
-	color: #000;
+  background: #ff0;
+  color: #000;
 }
 
+/* line 76, sass/_normalize.scss */
 small {
-	font-size: 80%;
+  font-size: 80%;
 }
 
+/* line 81, sass/_normalize.scss */
 sub,
 sup {
-	font-size: 75%;
-	line-height: 0;
-	position: relative;
-	vertical-align: baseline;
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
 }
 
+/* line 88, sass/_normalize.scss */
 sup {
-	top: -0.5em;
+  top: -0.5em;
 }
 
+/* line 92, sass/_normalize.scss */
 sub {
-	bottom: -0.25em;
+  bottom: -0.25em;
 }
 
+/* line 96, sass/_normalize.scss */
 img {
-	border: 0;
+  border: 0;
 }
 
+/* line 100, sass/_normalize.scss */
 svg:not(:root) {
-	overflow: hidden;
+  overflow: hidden;
 }
 
+/* line 104, sass/_normalize.scss */
 figure {
-	margin: 1em 40px;
+  margin: 1em 40px;
 }
 
+/* line 108, sass/_normalize.scss */
 hr {
-	box-sizing: content-box;
-	height: 0;
+  box-sizing: content-box;
+  height: 0;
 }
 
+/* line 113, sass/_normalize.scss */
 pre {
-	overflow: auto;
+  overflow: auto;
 }
 
+/* line 120, sass/_normalize.scss */
 code,
 kbd,
 pre,
 samp {
-	font-family: monospace, monospace;
-	font-size: 1em;
+  font-family: monospace, monospace;
+  font-size: 1em;
 }
 
+/* line 129, sass/_normalize.scss */
 button,
 input,
 optgroup,
 select,
 textarea {
-	color: inherit;
-	font: inherit;
-	margin: 0;
+  color: inherit;
+  font: inherit;
+  margin: 0;
 }
 
+/* line 135, sass/_normalize.scss */
 button {
-	overflow: visible;
+  overflow: visible;
 }
 
+/* line 140, sass/_normalize.scss */
 button,
 select {
-	text-transform: none;
+  text-transform: none;
 }
 
+/* line 147, sass/_normalize.scss */
 button,
 html input[type="button"],
 input[type="reset"],
 input[type="submit"] {
-	-webkit-appearance: button;
-	cursor: pointer;
+  -webkit-appearance: button;
+  cursor: pointer;
 }
 
+/* line 153, sass/_normalize.scss */
 button[disabled],
 html input[disabled] {
-	cursor: default;
+  cursor: default;
 }
 
+/* line 158, sass/_normalize.scss */
 button::-moz-focus-inner,
 input::-moz-focus-inner {
-	border: 0;
-	padding: 0;
+  border: 0;
+  padding: 0;
 }
 
+/* line 163, sass/_normalize.scss */
 input {
-	line-height: normal;
+  line-height: normal;
 }
 
+/* line 168, sass/_normalize.scss */
 input[type="checkbox"],
 input[type="radio"] {
-	box-sizing: border-box;
-	padding: 0;
+  box-sizing: border-box;
+  padding: 0;
 }
 
+/* line 174, sass/_normalize.scss */
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
-	height: auto;
+  height: auto;
 }
 
+/* line 178, sass/_normalize.scss */
 input[type="search"] {
-	-webkit-appearance: textfield;
-	box-sizing: content-box;
+  -webkit-appearance: textfield;
+  box-sizing: content-box;
 }
 
+/* line 184, sass/_normalize.scss */
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
-	-webkit-appearance: none;
+  -webkit-appearance: none;
 }
 
+/* line 188, sass/_normalize.scss */
 fieldset {
-	border: 1px solid #c0c0c0;
-	margin: 0 2px;
-	padding: 0.35em 0.625em 0.75em;
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
 }
 
+/* line 194, sass/_normalize.scss */
 legend {
-	border: 0;
-	padding: 0;
+  border: 0;
+  padding: 0;
 }
 
+/* line 199, sass/_normalize.scss */
 textarea {
-	overflow: auto;
+  overflow: auto;
 }
 
+/* line 203, sass/_normalize.scss */
 optgroup {
-	font-weight: bold;
+  font-weight: bold;
 }
 
+/* line 207, sass/_normalize.scss */
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
+/* line 213, sass/_normalize.scss */
 td,
 th {
-	padding: 0;
->>>>>>> 6c47be9... Normalize rather than Reset.
+  padding: 0;
 }
 
 /*--------------------------------------------------------------
@@ -391,18 +333,11 @@ button,
 input,
 select,
 textarea {
-<<<<<<< HEAD
   font-family: Georgia, serif;
-  font-size: 16px;
+  font-size: 25.6px;
   font-size: 1.6rem;
   line-height: 1.5;
   color: #404040;
-=======
-	color: #404040;
-	font-size: 16px;
-	font-size: 1rem;
-	line-height: 1.5;
->>>>>>> 6c47be9... Normalize rather than Reset.
 }
 
 /* 2.1 Headings
@@ -431,7 +366,7 @@ h6 a {
 /* line 20, sass/typography/_headings.scss */
 h1 {
   font-family: sans-serif;
-  font-size: 32px;
+  font-size: 51.2px;
   font-size: 3.2rem;
   line-height: 1;
 }
@@ -447,14 +382,14 @@ h6 {
 
 /* line 34, sass/typography/_headings.scss */
 h2 {
-  font-size: 26px;
+  font-size: 41.6px;
   font-size: 2.6rem;
   line-height: 1;
 }
 
 /* line 39, sass/typography/_headings.scss */
 h3 {
-  font-size: 20px;
+  font-size: 32px;
   font-size: 2rem;
   line-height: 1.3;
 }
@@ -463,7 +398,7 @@ h3 {
 h4,
 h5,
 h6 {
-  font-size: 16px;
+  font-size: 25.6px;
   font-size: 1.6rem;
   line-height: 1.5;
   font-weight: bold;
@@ -501,7 +436,6 @@ abbr {
   cursor: help;
 }
 
-<<<<<<< HEAD
 /* line 26, sass/typography/_copy.scss */
 mark {
   background: #fff9c0;
@@ -512,33 +446,6 @@ mark {
 ins,
 u {
   text-decoration: underline;
-=======
-pre {
-	background: #eee;
-	font-family: "Courier 10 Pitch", Courier, monospace;
-	font-size: 15px;
-	font-size: 0.9375rem;
-	line-height: 1.6;
-	margin-bottom: 1.6em;
-	max-width: 100%;
-	overflow: auto;
-	padding: 1.6em;
-}
-
-code,
-kbd,
-tt,
-var {
-	font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
-	font-size: 15px;
-	font-size: 0.9375rem;
-}
-
-abbr,
-acronym {
-	border-bottom: 1px dotted #666;
-	cursor: help;
->>>>>>> 6c47be9... Normalize rather than Reset.
 }
 
 /* line 36, sass/typography/_copy.scss */
@@ -546,42 +453,19 @@ del {
   text-decoration: line-through;
 }
 
-<<<<<<< HEAD
-/* line 41, sass/typography/_copy.scss */
-sup,
-sub {
-  font-size: 75%;
-  height: 0;
-  line-height: 0;
-  position: relative;
-  vertical-align: baseline;
-}
-
-/* line 49, sass/typography/_copy.scss */
-sup {
-  bottom: 1ex;
-}
-
-/* line 53, sass/typography/_copy.scss */
-sub {
-  top: .5ex;
-}
-
-/* line 57, sass/typography/_copy.scss */
-=======
->>>>>>> 6c47be9... Normalize rather than Reset.
+/* line 40, sass/typography/_copy.scss */
 small {
   font-size: 75%;
 }
 
 /* Deprecated in HTML5, but just in case */
-/* line 63, sass/typography/_copy.scss */
+/* line 46, sass/typography/_copy.scss */
 acronym {
   border-bottom: 1px dotted #666666;
   cursor: help;
 }
 
-/* line 68, sass/typography/_copy.scss */
+/* line 51, sass/typography/_copy.scss */
 big {
   font-size: 125%;
 }
@@ -603,36 +487,38 @@ a:hover, a:focus, a:active {
   text-decoration: none;
   color: midnightblue;
 }
+/* line 15, sass/typography/_links.scss */
+a:focus {
+  outline: thin dotted;
+}
+/* line 19, sass/typography/_links.scss */
+a:hover, a:active {
+  outline: 0;
+}
 
 /*--------------------------------------------------------------
 3.0 Elements
 --------------------------------------------------------------*/
-<<<<<<< HEAD
 /* line 1, sass/elements/_elements.scss */
-=======
+html {
+  box-sizing: border-box;
+}
+
+/* line 7, sass/elements/_elements.scss */
 *,
 *:before,
-*:after { /* Inherit box-sizing to make it easier to change the property for components that leverage other behavior; see http://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
-	box-sizing: inherit;
+*:after {
+  /* Inherit box-sizing to make it easier to change the property for components that leverage other behavior; see http://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
+  box-sizing: inherit;
 }
 
+/* line 11, sass/elements/_elements.scss */
 body {
-	background: #fff; /* Fallback for when there is no custom background color defined. */
+  background: white;
+  /* Fallback for when there is no custom background color defined. */
 }
 
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
-	content: "";
-}
-
-blockquote,
-q {
-	quotes: "" "";
-}
-
->>>>>>> 6c47be9... Normalize rather than Reset.
+/* line 15, sass/elements/_elements.scss */
 hr {
   height: 1px;
   /* We define a list of values for both units */
@@ -653,6 +539,33 @@ hr {
   /* We output the result */
   border: 0;
   background-color: #cccccc;
+}
+
+/* line 22, sass/elements/_elements.scss */
+img {
+  height: auto;
+  /* Make sure images are scaled correctly. */
+  max-width: 100%;
+  /* Adhere to container width. */
+}
+
+/* line 27, sass/elements/_elements.scss */
+figure {
+  /* We define a list of values for both units */
+  /* We define a list of values for both units */
+  /* We iterate through each value in the given parameter $values */
+  /* If the value is either auto or 0, we append it to the list as-is */
+  /* We iterate through each value in the given parameter $values */
+  /* If the value is either auto or 0, we append it to the list as-is */
+  /* We iterate through each value in the given parameter $values */
+  /* If the value has a unit, we split it to get both the unit and the raw value */
+  /* If the value has a unit, we split it to get both the unit and the raw value */
+  /* We append according values to the lists depending on the unit of the given value */
+  margin: 0 0 20px;
+  /* We output the result */
+  margin: 0 0 2rem;
+  /* We output the result */
+  line-height: 0;
 }
 
 /* 3.1 Lists
@@ -788,7 +701,6 @@ th {
   font-weight: bold;
 }
 
-<<<<<<< HEAD
 /* line 24, sass/elements/_tables.scss */
 .hentry th {
   background-color: transparent;
@@ -800,7 +712,19 @@ th {
 
 /* 3.3 Blockquotes
 ----------------------------------------------------------*/
-/* line 1, sass/elements/_blockquotes.scss */
+/* line 2, sass/elements/_blockquotes.scss */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+}
+
+/* line 7, sass/elements/_blockquotes.scss */
+blockquote,
+q {
+  quotes: "" "";
+}
+
+/* line 11, sass/elements/_blockquotes.scss */
 blockquote {
   /* We define a list of values for both units */
   /* We define a list of values for both units */
@@ -846,7 +770,7 @@ pre {
   padding: 2rem;
   /* We output the result */
   font-family: "Courier 10 Pitch", Courier, monospace;
-  font-size: 15px;
+  font-size: 24px;
   font-size: 1.5rem;
   line-height: 1.6;
 }
@@ -854,7 +778,7 @@ pre {
 /* line 11, sass/elements/_pre.scss */
 code, kbd, samp, var {
   font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
-  font-size: 15px;
+  font-size: 24px;
   font-size: 1.5rem;
   background: #eeeeee;
 }
@@ -863,35 +787,14 @@ code, kbd, samp, var {
 /* line 19, sass/elements/_pre.scss */
 tt {
   font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
-  font-size: 15px;
+  font-size: 24px;
   font-size: 1.5rem;
   background: #eeeeee;
 }
 
-=======
-table {
-	margin: 0 0 1.5em;
-	width: 100%;
-}
-
->>>>>>> 6c47be9... Normalize rather than Reset.
 /*--------------------------------------------------------------
 4.0 Forms
 --------------------------------------------------------------*/
-/* line 4, sass/forms/_forms.scss */
-button,
-<<<<<<< HEAD
-input,
-select,
-textarea {
-  font-size: 100%;
-  /* Corrects font size not being inherited in all browsers */
-  margin: 0;
-  /* Addresses margins set differently in IE6/7, F3/4, S5, Chrome */
-  vertical-align: baseline;
-  /* Improves appearance and consistency in all browsers */
-}
-
 /* 4.1 Buttons
 ----------------------------------------------------------*/
 /* line 4, sass/forms/_buttons.scss */
@@ -905,36 +808,14 @@ input[type="submit"] {
   background: #e6e6e6;
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), inset 0 15px 17px rgba(255, 255, 255, 0.5), inset 0 -5px 12px rgba(0, 0, 0, 0.05);
   color: rgba(0, 0, 0, 0.8);
-  cursor: pointer;
-  /* Improves usability and consistency of cursor style between image-type 'input' and others */
-  -webkit-appearance: button;
-  /* Corrects inability to style clickable 'input' types in iOS */
-  font-size: 14px;
+  font-size: 22.4px;
   font-size: 1.4rem;
   line-height: 1.2;
   padding: .5em 1em;
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
 }
 
-/* line 22, sass/forms/_buttons.scss */
-=======
-input[type="button"],
-input[type="reset"],
-input[type="submit"] {
-	border: 1px solid;
-	border-color: #ccc #ccc #bbb;
-	border-radius: 3px;
-	background: #e6e6e6;
-	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), inset 0 15px 17px rgba(255, 255, 255, 0.5), inset 0 -5px 12px rgba(0, 0, 0, 0.05);
-	color: rgba(0, 0, 0, .8);
-	font-size: 12px;
-	font-size: 0.75rem;
-	line-height: 1;
-	padding: .6em 1em .4em;
-	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
-}
-
->>>>>>> 6c47be9... Normalize rather than Reset.
+/* line 20, sass/forms/_buttons.scss */
 button:hover,
 input[type="button"]:hover,
 input[type="reset"]:hover,
@@ -943,7 +824,7 @@ input[type="submit"]:hover {
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.8), inset 0 15px 17px rgba(255, 255, 255, 0.8), inset 0 -5px 12px rgba(0, 0, 0, 0.02);
 }
 
-/* line 34, sass/forms/_buttons.scss */
+/* line 32, sass/forms/_buttons.scss */
 button:focus,
 input[type="button"]:focus,
 input[type="reset"]:focus,
@@ -956,40 +837,9 @@ input[type="submit"]:active {
   box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 0.5), inset 0 2px 5px rgba(0, 0, 0, 0.15);
 }
 
-<<<<<<< HEAD
 /* 4.2 Fields
 ----------------------------------------------------------*/
-/* line 2, sass/forms/_fields.scss */
-input[type="checkbox"],
-input[type="radio"] {
-  padding: 0;
-  /* Addresses excess padding in IE8/9 */
-}
-
 /* line 6, sass/forms/_fields.scss */
-input[type="search"] {
-  -webkit-appearance: textfield;
-  /* Addresses appearance set to searchfield in S5, Chrome */
-  box-sizing: content-box;
-}
-
-/* line 11, sass/forms/_fields.scss */
-input[type="search"]::-webkit-search-decoration {
-  /* Corrects inner padding displayed oddly in S5, Chrome on OSX */
-  -webkit-appearance: none;
-}
-
-/* line 16, sass/forms/_fields.scss */
-button::-moz-focus-inner,
-input::-moz-focus-inner {
-  /* Corrects inner padding and border displayed oddly in FF3/4 www.sitepen.com/blog/2008/05/14/the-devils-in-the-details-fixing-dojos-toolbar-buttons/ */
-  border: 0;
-  padding: 0;
-}
-
-/* line 26, sass/forms/_fields.scss */
-=======
->>>>>>> 6c47be9... Normalize rather than Reset.
 input[type="text"],
 input[type="email"],
 input[type="url"],
@@ -1001,7 +851,7 @@ textarea {
   border-radius: 3px;
 }
 
-/* line 37, sass/forms/_fields.scss */
+/* line 17, sass/forms/_fields.scss */
 input[type="text"]:focus,
 input[type="email"]:focus,
 input[type="url"]:focus,
@@ -1011,7 +861,7 @@ textarea:focus {
   color: #111111;
 }
 
-/* line 45, sass/forms/_fields.scss */
+/* line 25, sass/forms/_fields.scss */
 input[type="text"],
 input[type="email"],
 input[type="url"],
@@ -1029,11 +879,8 @@ input[type="search"] {
   /* We output the result */
 }
 
-/* line 49, sass/forms/_fields.scss */
+/* line 29, sass/forms/_fields.scss */
 textarea {
-<<<<<<< HEAD
-  overflow: auto;
-  /* Removes default vertical scrollbar in IE6/7/8/9 */
   /* We define a list of values for both units */
   /* We define a list of values for both units */
   /* We iterate through each value in the given parameter $values */
@@ -1044,157 +891,13 @@ textarea {
   /* We output the result */
   padding-left: 0.3rem;
   /* We output the result */
-  vertical-align: top;
-  /* Improves readability and alignment in all browsers */
   width: 100%;
-=======
-	padding-left: 3px;
-	width: 100%;
-}
-
-/*--------------------------------------------------------------
-5.0 Navigation
---------------------------------------------------------------*/
-/*--------------------------------------------------------------
-5.1 Links
---------------------------------------------------------------*/
-a {
-	color: royalblue;
-}
-
-a:visited {
-	color: purple;
-}
-
-a:hover,
-a:focus,
-a:active {
-	color: midnightblue;
-}
-
-a:focus {
-	outline: thin dotted;
-}
-
-a:hover,
-a:active {
-	outline: 0;
-}
-
-/*--------------------------------------------------------------
-5.2 Menus
---------------------------------------------------------------*/
-.main-navigation {
-	clear: both;
-	display: block;
-	float: left;
-	width: 100%;
-}
-
-.main-navigation ul {
-	list-style: none;
-	margin: 0;
-	padding-left: 0;
-}
-
-.main-navigation li {
-	float: left;
-	position: relative;
-}
-
-.main-navigation a {
-	display: block;
-	text-decoration: none;
-}
-
-.main-navigation ul ul {
-	box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
-	float: left;
-	position: absolute;
-	top: 1.5em;
-	left: -999em;
-	z-index: 99999;
-}
-
-.main-navigation ul ul ul {
-	left: -999em;
-	top: 0;
-}
-
-.main-navigation ul ul a {
-	width: 200px;
-}
-
-.main-navigation ul ul li {
-
-}
-
-.main-navigation li:hover > a {
-}
-
-.main-navigation ul ul :hover > a {
-}
-
-.main-navigation ul ul a:hover {
-}
-
-.main-navigation ul li:hover > ul {
-	left: auto;
-}
-
-.main-navigation ul ul li:hover > ul {
-	left: 100%;
-}
-
-.main-navigation .current_page_item > a,
-.main-navigation .current-menu-item > a,
-.main-navigation .current_page_ancestor > a {
-}
-
-/* Small menu. */
-.menu-toggle {
-	display: none;
-}
-
-@media screen and (max-width: 600px) {
-	.menu-toggle,
-	.main-navigation.toggled .nav-menu {
-		display: block;
-	}
-
-	.main-navigation ul {
-		display: none;
-	}
-}
-
-.site-main .comment-navigation,
-.site-main .paging-navigation,
-.site-main .post-navigation {
-	margin: 0 0 1.5em;
-	overflow: hidden;
-}
-
-.comment-navigation .nav-previous,
-.paging-navigation .nav-previous,
-.post-navigation .nav-previous {
-	float: left;
-	width: 50%;
-}
-
-.comment-navigation .nav-next,
-.paging-navigation .nav-next,
-.post-navigation .nav-next {
-	float: right;
-	text-align: right;
-	width: 50%;
->>>>>>> 6c47be9... Normalize rather than Reset.
 }
 
 /*--------------------------------------------------------------
 5.0 Accessibility
 --------------------------------------------------------------*/
-<<<<<<< HEAD
-/* Text meant only for screen readers */
+/* Text meant only for screen readers. */
 /* line 2, sass/modules/_accessibility.scss */
 .screen-reader-text {
   clip: rect(1px, 1px, 1px, 1px);
@@ -1212,7 +915,7 @@ a:active {
   color: #21759b;
   display: block;
   font-size: 14px;
-  font-size: 1.4rem;
+  font-size: 0.875rem;
   font-weight: bold;
   height: auto;
   left: 5px;
@@ -1222,38 +925,7 @@ a:active {
   top: 5px;
   width: auto;
   z-index: 100000;
-  /* Above WP toolbar */
-=======
-/* Text meant only for screen readers. */
-.screen-reader-text {
-	clip: rect(1px, 1px, 1px, 1px);
-	position: absolute !important;
-	height: 1px;
-	width: 1px;
-	overflow: hidden;
-}
-
-.screen-reader-text:hover,
-.screen-reader-text:active,
-.screen-reader-text:focus {
-	background-color: #f1f1f1;
-	border-radius: 3px;
-	box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
-	clip: auto !important;
-	color: #21759b;
-	display: block;
-	font-size: 14px;
-	font-size: 0.875rem;
-	font-weight: bold;
-	height: auto;
-	left: 5px;
-	line-height: normal;
-	padding: 15px 23px 14px;
-	text-decoration: none;
-	top: 5px;
-	width: auto;
-	z-index: 100000; /* Above WP toolbar. */
->>>>>>> 6c47be9... Normalize rather than Reset.
+  /* Above WP toolbar. */
 }
 
 /*--------------------------------------------------------------
@@ -1341,7 +1013,6 @@ a:active {
   background-color: white;
 }
 
-<<<<<<< HEAD
 /*--------------------------------------------------------------
 10.0 Header
 --------------------------------------------------------------*/
@@ -1373,7 +1044,7 @@ a:active {
 h1.site-title {
   margin-left: -2px;
   font-family: sans-serif;
-  font-size: 48px;
+  font-size: 76.8px;
   font-size: 4.8rem;
   line-height: 1;
 }
@@ -1394,7 +1065,7 @@ h1.site-title a:active {
 /* line 30, sass/header/_header.scss */
 h2.site-description {
   font-family: sans-serif;
-  font-size: 16px;
+  font-size: 25.6px;
   font-size: 1.6rem;
   line-height: 1;
   font-weight: bold;
@@ -1543,7 +1214,7 @@ h2.site-description {
   padding: 0.5rem 1rem;
   /* We output the result */
   font-family: sans-serif;
-  font-size: 12px;
+  font-size: 19.2px;
   font-size: 1.2rem;
   font-weight: normal;
   text-decoration: none;
@@ -1637,7 +1308,7 @@ h2.site-description {
   padding: 1rem 2rem;
   /* We output the result */
   font-family: sans-serif;
-  font-size: 14px;
+  font-size: 22.4px;
   font-size: 1.4rem;
   font-weight: bold;
   text-decoration: none;
@@ -1659,16 +1330,6 @@ h2.site-description {
 /* line 58, sass/header/_site-navigation.scss */
 .menu-toggle {
   display: none;
-=======
-/* Make sure select elements fit in widgets. */
-.widget select {
-	max-width: 100%;
-}
-
-/* Search widget. */
-.widget_search .search-submit {
-	display: none;
->>>>>>> 6c47be9... Normalize rather than Reset.
 }
 
 @media screen and (max-width: 600px) {
@@ -1821,7 +1482,7 @@ h1.entry-title a:active {
 /* line 61, sass/content/_content.scss */
 .entry-meta {
   font-family: sans-serif;
-  font-size: 14px;
+  font-size: 22.4px;
   font-size: 1.4rem;
   color: gray;
 }
@@ -1908,7 +1569,7 @@ h1.entry-title a:active {
 /* line 100, sass/content/_content.scss */
 .entry-footer {
   font-family: sans-serif;
-  font-size: 14px;
+  font-size: 22.4px;
   font-size: 1.4rem;
   color: gray;
 }
@@ -2016,14 +1677,14 @@ h1.entry-title a:active {
   padding: 3rem;
   /* We output the result */
   text-align: justify;
-  font-size: 14px;
+  font-size: 22.4px;
   font-size: 1.4rem;
 }
 /* line 6, sass/content/_comments.scss */
 .comments-area h2.comments-title {
   margin-left: -1px;
   /* Fixes larger font alignment with smaller fonts */
-  font-size: 20px;
+  font-size: 32px;
   font-size: 2rem;
   line-height: 1.3;
 }
@@ -2082,7 +1743,7 @@ h1.entry-title a:active {
 
 /* line 35, sass/content/_comments.scss */
 .comment-author {
-  font-size: 16px;
+  font-size: 25.6px;
   font-size: 1.6rem;
 }
 /* line 38, sass/content/_comments.scss */
@@ -2173,7 +1834,7 @@ h1.entry-title a:active {
 .comment-respond h3 {
   margin-left: -1px;
   /* Fixes larger font alignment with smaller fonts */
-  font-size: 20px;
+  font-size: 32px;
   font-size: 2rem;
   line-height: 1.3;
 }
@@ -2202,7 +1863,7 @@ h1.entry-title a:active {
 /* line 94, sass/content/_comments.scss */
 .comment-respond .form-allowed-tags,
 .comment-respond .form-allowed-tags code {
-  font-size: 14px;
+  font-size: 22.4px;
   font-size: 1.4rem;
   color: gray;
 }
@@ -2354,7 +2015,7 @@ table#wp-calendar a {
   /* We output the result */
   border: none;
   font-family: sans-serif;
-  font-size: 14px;
+  font-size: 22.4px;
   font-size: 1.4rem;
   background-color: #f6f6f6;
 }
@@ -2377,7 +2038,7 @@ table#wp-calendar a {
 #secondary .widget_calendar caption {
   border-bottom: 1px solid gray;
   font-family: sans-serif;
-  font-size: 16px;
+  font-size: 25.6px;
   font-size: 1.6rem;
   font-weight: bold;
 }
@@ -2407,7 +2068,7 @@ table#wp-calendar a {
   padding: 3rem;
   /* We output the result */
   font-family: sans-serif;
-  font-size: 14px;
+  font-size: 22.4px;
   font-size: 1.4rem;
   color: #404040;
 }
@@ -2432,7 +2093,7 @@ table#wp-calendar a {
 #tertiary .widget_calendar caption {
   border-bottom: 1px solid gray;
   font-family: sans-serif;
-  font-size: 16px;
+  font-size: 25.6px;
   font-size: 1.6rem;
   font-weight: bold;
 }
@@ -2458,7 +2119,7 @@ table#wp-calendar a {
   /* We output the result */
   border-top: 1px solid gray;
   font-family: Georgia, serif;
-  font-size: 12px;
+  font-size: 19.2px;
   font-size: 1.2rem;
   color: #404040;
   text-align: center;
@@ -2473,7 +2134,6 @@ table#wp-calendar a {
 14.0 Infinite scroll
 --------------------------------------------------------------*/
 /* Globally hidden elements when Infinite Scroll is supported and in use. */
-<<<<<<< HEAD
 /* line 3, sass/modules/_infinite-scroll.scss */
 .infinite-scroll .posts-navigation,
 .infinite-scroll.neverending .site-footer {
@@ -2481,16 +2141,8 @@ table#wp-calendar a {
   display: none;
 }
 
-/* When Infinite Scroll has reached its end we need to re-display elements that were hidden (via .neverending) before */
-/* line 8, sass/modules/_infinite-scroll.scss */
-=======
-.infinite-scroll .paging-navigation, /* Older / Newer Posts Navigation (always hidden). */
-.infinite-scroll.neverending .site-footer { /* Theme Footer (when set to scrolling). */
-	display: none;
-}
-
 /* When Infinite Scroll has reached its end we need to re-display elements that were hidden (via .neverending) before. */
->>>>>>> 6c47be9... Normalize rather than Reset.
+/* line 8, sass/modules/_infinite-scroll.scss */
 .infinity-end.neverending .site-footer {
   display: block;
 }
@@ -2498,58 +2150,18 @@ table#wp-calendar a {
 /*--------------------------------------------------------------
 15.0 Media
 --------------------------------------------------------------*/
-<<<<<<< HEAD
-/* line 1, sass/media/_media.scss */
-img {
-  height: auto;
-  /* Make sure images are scaled correctly. */
-  max-width: 100%;
-  /* Adhere to container width. */
-}
-
-/* line 6, sass/media/_media.scss */
-figure {
-  /* We define a list of values for both units */
-  /* We define a list of values for both units */
-  /* We iterate through each value in the given parameter $values */
-  /* If the value is either auto or 0, we append it to the list as-is */
-  /* We iterate through each value in the given parameter $values */
-  /* If the value is either auto or 0, we append it to the list as-is */
-  /* We iterate through each value in the given parameter $values */
-  /* If the value has a unit, we split it to get both the unit and the raw value */
-  /* If the value has a unit, we split it to get both the unit and the raw value */
-  /* We append according values to the lists depending on the unit of the given value */
-  margin: 0 0 20px;
-  /* We output the result */
-  margin: 0 0 2rem;
-  /* We output the result */
-  line-height: 0;
-}
-
-/* line 13, sass/media/_media.scss */
-.page-content img.wp-smiley,
-.entry-content img.wp-smiley,
-.comment-content img.wp-smiley {
+/* line 3, sass/media/_media.scss */
+.page-content .wp-smiley,
+.entry-content .wp-smiley,
+.comment-content .wp-smiley {
   border: none;
   margin-bottom: 0;
   margin-top: 0;
   padding: 0;
 }
 
-/* Make sure embeds and iframes fit their containers */
-/* line 23, sass/media/_media.scss */
-=======
-.page-content .wp-smiley,
-.entry-content .wp-smiley,
-.comment-content .wp-smiley {
-	border: none;
-	margin-bottom: 0;
-	margin-top: 0;
-	padding: 0;
-}
-
 /* Make sure embeds and iframes fit their containers. */
->>>>>>> 6c47be9... Normalize rather than Reset.
+/* line 13, sass/media/_media.scss */
 embed,
 iframe,
 object {
@@ -2581,7 +2193,7 @@ object {
 /* line 9, sass/media/_captions.scss */
 .wp-caption .wp-caption-text {
   margin: 0;
-  font-size: 14px;
+  font-size: 22.4px;
   font-size: 1.4rem;
   font-style: italic;
 }
