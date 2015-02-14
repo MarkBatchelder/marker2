@@ -453,19 +453,14 @@ del {
   text-decoration: line-through;
 }
 
-/* line 40, sass/typography/_copy.scss */
-small {
-  font-size: 75%;
-}
-
 /* Deprecated in HTML5, but just in case */
-/* line 46, sass/typography/_copy.scss */
+/* line 42, sass/typography/_copy.scss */
 acronym {
   border-bottom: 1px dotted #666666;
   cursor: help;
 }
 
-/* line 51, sass/typography/_copy.scss */
+/* line 47, sass/typography/_copy.scss */
 big {
   font-size: 125%;
 }
