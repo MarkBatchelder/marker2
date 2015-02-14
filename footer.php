@@ -20,9 +20,16 @@
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'http://wordpress.org/', 'marker' ) ); ?>"><?php printf( __( 'Proudly powered by %s', 'marker' ), 'WordPress' ); ?></a>
-			<span class="sep"> | </span>
-			<?php printf( __( 'Theme: %1$s by %2$s.', 'marker' ), 'Marker', '<a href="http://WebFirstDesigns.com" rel="designer">Web First Designs</a>' ); ?>
+			<div class="copyright">
+				&copy;
+				<?php echo date("Y"); ?>
+				<?php bloginfo('name'); ?>.
+				All rights reserved.
+			</div><!-- .copyright -->
+			<div class="theme-info">
+				<?php printf( __( 'Proudly powered by %s.', 'marker' ), '<a href="http://wordpress.org">WordPress</a>' ); ?>
+				<?php printf( __( 'Designed & maintained by %s.', 'marker' ), '<a href="http://webfirstdesigns.com" rel="designer">Web First Designs</a>' ); ?>
+			</div><!-- .theme-info -->
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->
