@@ -2027,13 +2027,6 @@ table#wp-calendar a {
 /* 12.3 Footer Widget Area
 ----------------------------------------------------------*/
 /* line 1, sass/sidebars/_tertiary.scss */
-#footer-primary {
-  clear: both;
-  border-top: 1px solid gray;
-  background-color: #f6f6f6;
-}
-
-/* line 7, sass/sidebars/_tertiary.scss */
 #tertiary {
   /* We define a list of values for both units */
   /* We define a list of values for both units */
@@ -2045,12 +2038,14 @@ table#wp-calendar a {
   /* We output the result */
   padding: 3rem;
   /* We output the result */
+  border-top: 1px solid gray;
+  background-color: #f6f6f6;
+  color: #404040;
   font-family: sans-serif;
   font-size: 14px;
   font-size: 0.875rem;
-  color: #404040;
 }
-/* line 13, sass/sidebars/_tertiary.scss */
+/* line 9, sass/sidebars/_tertiary.scss */
 #tertiary .widget {
   float: left;
   overflow: hidden;
@@ -2066,7 +2061,7 @@ table#wp-calendar a {
   padding: 3rem;
   /* We output the result */
 }
-/* line 21, sass/sidebars/_tertiary.scss */
+/* line 17, sass/sidebars/_tertiary.scss */
 #tertiary .widget-title,
 #tertiary .widget_calendar caption {
   border-bottom: 1px solid gray;
@@ -2075,7 +2070,7 @@ table#wp-calendar a {
   font-size: 1rem;
   font-weight: bold;
 }
-/* line 28, sass/sidebars/_tertiary.scss */
+/* line 24, sass/sidebars/_tertiary.scss */
 #tertiary a {
   text-decoration: none;
 }
@@ -2084,22 +2079,7 @@ table#wp-calendar a {
 13.0 Footer
 --------------------------------------------------------------*/
 /* line 1, sass/footer/_footer.scss */
-.site-footer {
-  clear: both;
-}
-
-/* line 5, sass/footer/_footer.scss */
 .site-footer .site-info {
-  border-top: 1px solid gray;
-  font-family: Georgia, serif;
-  font-size: 12px;
-  font-size: 0.75rem;
-  color: #404040;
-  background-color: white;
-}
-/* line 13, sass/footer/_footer.scss */
-.site-footer .site-info .copyright,
-.site-footer .site-info .theme-info {
   /* We define a list of values for both units */
   /* We define a list of values for both units */
   /* We iterate through each value in the given parameter $values */
@@ -2107,21 +2087,29 @@ table#wp-calendar a {
   /* If the value has a unit, we split it to get both the unit and the raw value */
   /* We append according values to the lists depending on the unit of the given value */
   /* We iterate through each value in the given parameter $values */
-  /* If the value is either auto or 0, we append it to the list as-is */
-  padding: 10px 0;
+  /* If the value has a unit, we split it to get both the unit and the raw value */
+  /* If the value has a unit, we split it to get both the unit and the raw value */
+  /* We append according values to the lists depending on the unit of the given value */
+  padding: 10px 60px;
   /* We output the result */
-  padding: 1rem 0;
+  padding: 1rem 6rem;
   /* We output the result */
+  border-top: 1px solid gray;
+  background-color: white;
+  color: #404040;
+  font-family: Georgia, serif;
+  font-size: 12px;
+  font-size: 0.75rem;
 }
-/* line 18, sass/footer/_footer.scss */
+/* line 9, sass/footer/_footer.scss */
 .site-footer .site-info .copyright {
   float: left;
 }
-/* line 22, sass/footer/_footer.scss */
+/* line 13, sass/footer/_footer.scss */
 .site-footer .site-info .theme-info {
   float: right;
 }
-/* line 26, sass/footer/_footer.scss */
+/* line 17, sass/footer/_footer.scss */
 .site-footer .site-info a {
   text-decoration: none;
 }
