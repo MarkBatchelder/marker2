@@ -27,8 +27,7 @@
 				All rights reserved.
 			</div><!-- .copyright -->
 			<div class="theme-info">
-				<?php printf( __( 'Proudly powered by %s.', 'marker' ), '<a href="http://wordpress.org">WordPress</a>' ); ?>
-				<?php printf( __( 'Designed & maintained by %s.', 'marker' ), '<a href="http://webfirstdesigns.com" rel="designer">Web First Designs</a>' ); ?>
+				<?php printf( __( 'Designed & maintained by %s.', 'marker' ), '<a href="http://webfirstdesigns.com/" rel="designer">Web First Designs</a>' ); ?>
 			</div><!-- .theme-info -->
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
