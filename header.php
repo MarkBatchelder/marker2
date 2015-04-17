@@ -24,9 +24,9 @@
 
 	<header id="masthead" class="site-header" role="banner">
 	
-		<nav id="top-navigation" class="secondary-navigation" role="navigation">
+		<nav id="secondary-navigation" class="top-navigation" role="navigation">
 			<?php wp_nav_menu( array( 'theme_location' => 'top', 'fallback_cb' => false ) ); ?>
-		</nav><!-- #extra-navigation -->
+		</nav><!-- #secondary-navigation -->
 	
 		<div class="site-branding">
 			<?php if ( get_header_image() ) : ?>
@@ -42,7 +42,7 @@
 		<nav id="primary-navigation" class="main-navigation" role="navigation">
 			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php _e( 'Primary Menu', 'marker' ); ?></button>
 			<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
-		</nav><!-- #site-navigation -->
+		</nav><!-- #primary-navigation -->
 	</header><!-- #masthead -->
 
 	<div id="content" class="site-content">
