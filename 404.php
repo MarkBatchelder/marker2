@@ -12,11 +12,11 @@ get_header(); ?>
 
 			<section class="error-404 not-found">
 				<header class="entry-header">
-					<h1 class="entry-title"><?php _e( '404 Not Found', 'marker' ); ?></h1>
+					<h1 class="entry-title"><?php esc_html_e( '404 Not Found', 'marker' ); ?></h1>
 				</header><!-- .page-header -->
 
 				<div class="entry-content">
-					<p><?php _e( 'Sorry for the error, but that page can&rsquo;t be found.', 'marker' ); ?></p>
+					<p><?php esc_html_e( 'Sorry for the error, but that page can&rsquo;t be found.', 'marker' ); ?></p>
 					<p>You can head <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">home</a> or try a search below.</p>
 					
 					<?php get_search_form(); ?>
