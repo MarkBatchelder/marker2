@@ -26,7 +26,7 @@ if ( post_password_required() ) {
 		<h2 class="comments-title">
 			<?php
 				printf(
-					_nx( 'One comment on &ldquo;%2$s&rdquo;', '%1$s comments on &ldquo;%2$s&rdquo;', get_comments_number(), 'comments title', 'marker' ),
+					esc_html( _nx( 'One comment on &ldquo;%2$s&rdquo;', '%1$s comments on &ldquo;%2$s&rdquo;', get_comments_number(), 'comments title', 'marker' ) ),
 					number_format_i18n( get_comments_number() ),
 					'<span>' . get_the_title() . '</span>'
 				);
@@ -38,8 +38,8 @@ if ( post_password_required() ) {
 			<h2 class="screen-reader-text"><?php esc_html_e( 'Comment navigation', 'marker' ); ?></h2>
 			<div class="nav-links">
 
-				<div class="nav-previous"><?php previous_comments_link( __( 'Older Comments', 'marker' ) ); ?></div>
-				<div class="nav-next"><?php next_comments_link( __( 'Newer Comments', 'marker' ) ); ?></div>
+				<div class="nav-previous"><?php previous_comments_link( esc_html__( 'Older Comments', 'marker' ) ); ?></div>
+				<div class="nav-next"><?php next_comments_link( esc_html__( 'Newer Comments', 'marker' ) ); ?></div>
 
 			</div><!-- .nav-links -->
 		</nav><!-- #comment-nav-above -->
@@ -60,8 +60,8 @@ if ( post_password_required() ) {
 			<h2 class="screen-reader-text"><?php esc_html_e( 'Comment navigation', 'marker' ); ?></h2>
 			<div class="nav-links">
 
-				<div class="nav-previous"><?php previous_comments_link( __( 'Older Comments', 'marker' ) ); ?></div>
-				<div class="nav-next"><?php next_comments_link( __( 'Newer Comments', 'marker' ) ); ?></div>
+				<div class="nav-previous"><?php previous_comments_link( esc_html__( 'Older Comments', 'marker' ) ); ?></div>
+				<div class="nav-next"><?php next_comments_link( esc_html__( 'Newer Comments', 'marker' ) ); ?></div>
 
 			</div><!-- .nav-links -->
 		</nav><!-- #comment-nav-below -->
