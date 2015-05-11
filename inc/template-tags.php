@@ -92,7 +92,7 @@ function marker_posted_on() {
 		'<span class="author vcard"><a class="url fn n" href="' . esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) ) . '">' . esc_html( get_the_author() ) . '</a></span>'
 	);
 
-	echo '<span class="posted-on">' . $posted_on . '</span><span class="byline"> ' . $byline . '</span>';
+	echo '<span class="posted-on">' . $posted_on . '</span><span class="byline"> ' . $byline . '</span>'; // WPCS: XSS OK
 	
 	edit_post_link( __( 'Edit', 'marker' ), '<span class="edit-link">', '</span>' );
 
@@ -109,13 +109,13 @@ function marker_entry_footer() {
 		/* translators: used between list items, there is a space after the comma */
 		$categories_list = get_the_category_list( esc_html__( ', ', 'marker' ) );
 		if ( $categories_list && marker_categorized_blog() ) {
-			printf( '<span class="cat-links">' . esc_html__( 'Posted in %1$s', 'marker' ) . '</span>', $categories_list );
+			printf( '<span class="cat-links">' . esc_html__( 'Posted in %1$s', 'marker' ) . '</span>', $categories_list ); // WPCS: XSS OK
 		}
 
 		/* translators: used between list items, there is a space after the comma */
 		$tags_list = get_the_tag_list( '', esc_html__( ', ', 'marker' ) );
 		if ( $tags_list ) {
-			printf( '<span class="tags-links">' . esc_html__( 'Tagged %1$s', 'marker' ) . '</span>', $tags_list );
+			printf( '<span class="tags-links">' . esc_html__( 'Tagged %1$s', 'marker' ) . '</span>', $tags_list ); // WPCS: XSS OK
 		}
 	}
 
@@ -191,7 +191,7 @@ function the_archive_title( $before = '', $after = '' ) {
 	$title = apply_filters( 'get_the_archive_title', $title );
 
 	if ( ! empty( $title ) ) {
-		echo $before . $title . $after;
+		echo $before . $title . $after;  // WPCS: XSS OK
 	}
 }
 endif;
@@ -218,7 +218,7 @@ function the_archive_description( $before = '', $after = '' ) {
 		 *
 		 * @param string $description Archive description to be displayed.
 		 */
-		echo $before . $description . $after;
+		echo $before . $description . $after;  // WPCS: XSS OK
 	}
 }
 endif;
