@@ -19,6 +19,9 @@ function marker_jetpack_setup() {
 } // end function marker_jetpack_setup
 add_action( 'after_setup_theme', 'marker_jetpack_setup' );
 
+/**
+ * Custom render function for Infinite Scroll.
+ */
 function marker_infinite_scroll_render() {
 	while ( have_posts() ) {
 		the_post();

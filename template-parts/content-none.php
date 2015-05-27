@@ -6,6 +6,7 @@
  *
  * @package Marker
  */
+
 ?>
 
 <section class="no-results not-found">

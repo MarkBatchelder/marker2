@@ -6,6 +6,7 @@
  *
  * @package Marker
  */
+
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
@@ -27,3 +28,4 @@
 		<?php marker_entry_footer(); ?>
 	</footer><!-- .entry-footer -->
 </article><!-- #post-## -->
+

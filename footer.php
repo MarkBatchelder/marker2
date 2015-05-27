@@ -6,6 +6,7 @@
  *
  * @package Marker
  */
+
 ?>
 	
 	<div id="content-footer" class="footer-sidebar">

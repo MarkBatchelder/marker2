@@ -4,6 +4,7 @@
  *
  * @package Marker
  */
+
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
@@ -29,3 +30,4 @@
 		<?php edit_post_link( esc_html__( 'Edit', 'marker' ), '<span class="edit-link">', '</span>' ); ?>
 	</footer><!-- .entry-footer -->
 </article><!-- #post-## -->
+

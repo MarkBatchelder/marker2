@@ -1,7 +1,10 @@
 <?php
 /**
+ * Template part for displaying posts.
+ *
  * @package Marker
  */
+
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
