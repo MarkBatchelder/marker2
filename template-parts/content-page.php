@@ -29,7 +29,16 @@
 	</div><!-- .entry-content -->
 
 	<footer class="entry-footer">
-		<?php edit_post_link( esc_html__( 'Edit', 'marker' ), '<span class="edit-link">', '</span>' ); ?>
+		<?php
+			edit_post_link(
+				sprintf(
+					esc_html_x( 'Edit %s', 'name of current post', 'marker' ),
+					wp_kses( the_title( '<span class="screen-reader-text">"', '"</span>', false ), array( 'span' => array( 'class' => array() ) ) )
+				),
+				'<span class="edit-link">',
+				'</span>'
+			);
+		?>
 	</footer><!-- .entry-footer -->
 </article><!-- #post-## -->
 
