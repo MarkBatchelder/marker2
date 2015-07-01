@@ -1,6 +1,6 @@
 <?php
 /**
- * Marker Theme Customizer
+ * Marker Theme Customizer.
  *
  * @package Marker
  */
