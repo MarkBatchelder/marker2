@@ -38,8 +38,7 @@
 			<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
 		</div><!-- .site-branding -->
 
-		<nav id="primary-navigation" class="main-navigation show-for-medium-up" role="navigation">
-			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php _e( 'Primary Menu', 'marker' ); ?></button>
+		<nav id="primary-navigation" class="main-navigation" role="navigation">
 			<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
 		</nav><!-- #primary-navigation -->
 	</header><!-- #masthead -->
