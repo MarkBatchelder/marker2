@@ -42,7 +42,11 @@
 			<?php endif; // End header image check. ?>
 			
 			<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-			<p class="site-description"><?php bloginfo( 'description' ); ?></p>
+
+			<?php $description = get_bloginfo( 'description', 'display' );
+			if ( $description || is_customize_preview() ) : ?>
+				<p class="site-description"><?php echo $description; ?></p>
+			<?php endif; ?>
 		</div><!-- #logo -->
 
 		<nav id="primary-navigation" class="main-navigation" role="navigation">
