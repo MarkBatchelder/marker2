@@ -23,11 +23,11 @@
 	<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'marker' ); ?></a>
 
 	<header id="masthead" class="site-header" role="banner">
-		<nav id="secondary-navigation" class="top-navigation" role="navigation">
+		<nav id="top-navigation" class="secondary-navigation" role="navigation">
 			<?php wp_nav_menu( array( 'theme_location' => 'top', 'fallback_cb' => false ) ); ?>
-		</nav><!-- #secondary-navigation -->
+		</nav><!-- #top-navigation -->
 	
-		<div class="site-branding">
+		<div id="logo" class="site-branding">
 			<?php if ( get_header_image() ) : ?>
 			<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
 				<img src="<?php header_image(); ?>" width="<?php echo esc_attr( get_custom_header()->width ); ?>" height="<?php echo esc_attr( get_custom_header()->height ); ?>" alt="">
@@ -36,11 +36,11 @@
 			
 			<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
 			<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
-		</div><!-- .site-branding -->
+		</div><!-- #logo -->
 
-		<nav id="primary-navigation" class="main-navigation" role="navigation">
+		<nav id="site-navigation" class="main-navigation" role="navigation">
 			<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
-		</nav><!-- #primary-navigation -->
+		</nav><!-- #site-navigation -->
 	</header><!-- #masthead -->
 
 	<div id="content" class="site-content">
