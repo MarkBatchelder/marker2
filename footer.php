@@ -27,7 +27,7 @@
 				All rights reserved.
 			</div><!-- .copyright -->
 			<div class="theme-info">
-				<?php printf( __( 'Designed & maintained by %s.', 'marker' ), '<a href="http://webfirstdesigns.com/" rel="designer">Web First Designs</a>' ); ?>
+				<?php printf( esc_html__( 'Designed & maintained by %s.', 'marker' ), '<a href="http://webfirstdesigns.com/" rel="designer">Web First Designs</a>' ); ?>
 			</div><!-- .theme-info -->
 		</div><!-- #credits -->
 	</footer><!-- #colophon -->
