@@ -38,8 +38,9 @@ function marker_posted_on() {
 	
 	edit_post_link(
 		sprintf(
-			esc_html_x( 'Edit %s', 'name of current post', 'marker' ),
-			wp_kses( the_title( '<span class="screen-reader-text">"', '"</span>', false ), array( 'span' => array( 'class' => array() ) ) )
+			/* translators: %s: Name of current post */
+			esc_html__( 'Edit %s', 'marker' ),
+			the_title( '<span class="screen-reader-text">"', '"</span>', false )
 		),
 		'<span class="edit-link">',
 		'</span>'
