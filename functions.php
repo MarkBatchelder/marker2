@@ -1,6 +1,6 @@
 <?php
 /**
- * Marker Functions and definitions.
+ * Marker functions and definitions.
  *
  * @link https://developer.wordpress.org/themes/basics/theme-functions/
  *
