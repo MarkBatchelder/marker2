@@ -32,6 +32,10 @@ add_action( 'after_setup_theme', 'marker_jetpack_setup' );
 function marker_infinite_scroll_render() {
 	while ( have_posts() ) {
 		the_post();
-		get_template_part( 'template-parts/content', get_post_format() );
+		if ( is_search() ) :
+		    get_template_part( 'template-parts/content', 'search' );
+		else :
+		    get_template_part( 'template-parts/content', get_post_format() );
+		endif;
 	}
 } // end function marker_infinite_scroll_render
