@@ -27,7 +27,11 @@
 
 	<header id="masthead" class="site-header" role="banner">
 		<nav id="top-navigation" class="secondary-navigation" role="navigation">
-			<?php wp_nav_menu( array( 'theme_location' => 'top', 'fallback_cb' => false ) ); ?>
+			<?php wp_nav_menu( array(
+                'theme_location' => 'top',
+                'menu_id' => 'top-menu',
+                'fallback_cb' => false,
+            ) ); ?>
 		</nav><!-- #top-navigation -->
 	
 		<div id="logo" class="site-branding">
@@ -41,10 +45,13 @@
 			<p class="site-description"><?php bloginfo( 'description' ); ?></p>
 		</div><!-- #logo -->
 
-		<nav id="site-navigation" class="main-navigation" role="navigation">
+		<nav id="primary-navigation" class="main-navigation" role="navigation">
             <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( '&#9776;', 'marker' ); ?></button>
-			<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
-		</nav><!-- #site-navigation -->
+			<?php wp_nav_menu( array(
+                'theme_location' => 'primary',
+                'menu_id' => 'primary-menu',
+            ) ); ?>
+		</nav><!-- #primary-navigation -->
 	</header><!-- #masthead -->
 
 	<div id="content" class="site-content">
