@@ -28,4 +28,3 @@
 		<?php marker_entry_footer(); ?>
 	</footer><!-- .entry-footer -->
 </article><!-- #post-## -->
-
