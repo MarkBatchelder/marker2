@@ -10,14 +10,6 @@
  */
 
 ?>
-	
-	<div id="content-footer" class="footer-sidebar">
-		<?php if ( is_active_sidebar( 'sidebar-2' ) ) : ?>
-			<div id="tertiary" class="footer-widget-area" role="complementary">
-				<?php dynamic_sidebar( 'sidebar-2' ); ?>
-			</div><!-- #tertiary -->
-		<?php endif; ?>
-	</div><!-- #content-footer -->
 
 	</div><!-- #content -->
 
