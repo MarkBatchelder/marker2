@@ -48,9 +48,9 @@
 			<?php $description = get_bloginfo( 'description', 'display' );
 			if ( $description || is_customize_preview() ) : ?>
 				<p class="site-description"><?php echo $description; /* WPCS: xss ok. */ ?></p>
-			<?php
-			endif; ?>
-		</div><!-- #logo -->
+            <?php
+            endif; ?>
+        </div><!-- #logo -->
 
 		<nav id="primary-navigation" class="main-navigation" role="navigation">
             <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( '&#9776;', 'marker' ); ?></button>

@@ -29,7 +29,7 @@
 			<?php marker_posted_on(); ?>
 		</div><!-- .entry-meta -->
 		<?php
-		endif; ?>
+        endif; ?>
 	</header><!-- .entry-header -->
 
 	<div class="entry-content">

@@ -35,7 +35,7 @@ function marker_posted_on() {
 	);
 
 	echo '<span class="posted-on">' . $posted_on . '</span><span class="byline"> ' . $byline . '</span>'; // WPCS: XSS OK.
-	
+
 	edit_post_link(
 		sprintf(
 			/* translators: %s: Name of current post */

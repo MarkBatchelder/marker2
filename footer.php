@@ -17,8 +17,8 @@
 		<div id="credits" class="site-info">
 			<div class="copyright">
 				&copy;
-				<?php echo date("Y"); ?>
-				<?php bloginfo('name'); ?>.
+				<?php echo date( 'Y' ); ?>
+				<?php bloginfo( 'name' ); ?>.
 				All rights reserved.
 			</div><!-- .copyright -->
 			<div class="theme-info">
