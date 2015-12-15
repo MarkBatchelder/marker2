@@ -23,7 +23,7 @@ function marker_jetpack_setup() {
 
 	// Add theme support for Responsive Videos.
 	add_theme_support( 'jetpack-responsive-videos' );
-} // end function marker_jetpack_setup
+}
 add_action( 'after_setup_theme', 'marker_jetpack_setup' );
 
 /**
@@ -38,4 +38,4 @@ function marker_infinite_scroll_render() {
 		    get_template_part( 'template-parts/content', get_post_format() );
 		endif;
 	}
-} // end function marker_infinite_scroll_render
+}
