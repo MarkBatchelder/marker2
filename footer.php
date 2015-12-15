@@ -16,7 +16,7 @@
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div id="credits" class="site-info">
 			<div class="copyright">
-                <?php echo esc_attr__( '&copy; ', 'marker' ).date( 'Y' ); ?>
+                <?php echo __( '&copy; ', 'marker' ).date( 'Y' ); ?>
 				<?php bloginfo( 'name' ); ?>.
 				All rights reserved.
 			</div><!-- .copyright -->
