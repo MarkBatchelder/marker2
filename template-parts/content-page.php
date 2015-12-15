@@ -13,10 +13,11 @@
     <?php
     if ( is_front_page() ) :
         /* Don't display page title if front page is static. */
-    else :
+    else : ?>
         <header class="entry-header">
             <?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
         </header><!-- .entry-header -->
+    <?php
     endif; ?>
 
 	<div class="entry-content">
