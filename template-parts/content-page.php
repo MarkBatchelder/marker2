@@ -10,7 +10,7 @@
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-    <?php if( is_front_page() ) : ?>
+    <?php if ( is_front_page() ) : ?>
         <!-- Don't display page title if front page is static. -->
     <?php else : ?>
         <header class="entry-header">
