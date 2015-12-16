@@ -34,15 +34,17 @@ add_action( 'after_setup_theme', 'marker_custom_header_setup' );
 
 if ( ! function_exists( 'marker_header_style' ) ) :
 /**
- * Styles the header image and text displayed on the blog
+ * Styles the header image and text displayed on the blog.
  *
  * @see marker_custom_header_setup().
  */
 function marker_header_style() {
 	$header_text_color = get_header_textcolor();
 
-	// If no custom options for text are set, let's bail
-	// get_header_textcolor() options: HEADER_TEXTCOLOR is default, hide text (returns 'blank') or any hex value.
+	/*
+	 * If no custom options for text are set, let's bail.
+	 * get_header_textcolor() options: Any hex value, 'blank' to hide text. Default: HEADER_TEXTCOLOR.
+	 */
 	if ( HEADER_TEXTCOLOR === $header_text_color ) {
 		return;
 	}
@@ -71,4 +73,4 @@ function marker_header_style() {
 	</style>
 	<?php
 }
-endif; // marker_header_style
+endif;
