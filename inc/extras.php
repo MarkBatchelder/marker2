@@ -33,7 +33,7 @@ add_filter( 'body_class', 'marker_body_classes' );
  */
 function marker_pingback_header() {
 	if ( is_singular() && pings_open() ) {
-		echo '<link rel="pingback" href="', bloginfo( 'pingback_url' ), '">';
+		echo '<link rel="pingback" href="', esc_url( get_bloginfo( 'pingback_url' ) ), '">';
 	}
 }
 add_action( 'wp_head', 'marker_pingback_header' );
