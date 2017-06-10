@@ -31,7 +31,7 @@
 			<div class="theme-info">
 				<?php
 					/* translators: %s: Theme author. */
-					printf( esc_html__( 'Designed & maintained by %s.', 'marker' ), '<a href="https://webfirstdesigns.com/" rel="designer">Web First Designs</a>' );
+					printf( esc_html__( 'Designed & maintained by %s.', 'marker' ), '<a href="https://webfirstdesigns.com/">Web First Designs</a>' );
 				?>
 			</div><!-- .theme-info -->
 		</div><!-- #credits -->
