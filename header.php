@@ -23,7 +23,7 @@
 <body <?php body_class(); ?>>
 <div id="page-container" class="site-container">
 <div id="page" class="site">
-	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'marker' ); ?></a>
+	<a class="skip-link screen-reader-text" href="#main"><?php esc_html_e( 'Skip to content', 'marker' ); ?></a>
 
 	<header id="masthead" class="site-header" role="banner">
 		<nav id="top-navigation" class="secondary-navigation" role="navigation">
