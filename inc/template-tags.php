@@ -62,7 +62,7 @@ function marker_entry_footer() {
 		}
 
 		/* translators: used between list items, there is a space after the comma */
-		$tags_list = get_the_tag_list( '', esc_html__( ', ', 'marker' ) );
+		$tags_list = get_the_tag_list( '', esc_html_x( ', ', 'list item separator', 'marker' ) );
 		if ( $tags_list ) {
 			printf( '<span class="tags-links">' . esc_html__( 'Tagged %1$s', 'marker' ) . '</span>', $tags_list ); // WPCS: XSS OK.
 		}
