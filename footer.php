@@ -17,12 +17,22 @@
 		<div id="credits" class="site-info">
 			<div class="copyright">
 				&copy;
-				<?php echo esc_attr( date( 'Y' ) ); ?>
-				<?php bloginfo( 'name' ); ?>.
-				All rights reserved.
+				<?php 
+					printf( esc_html__( date( 'Y' ), 'marker' ) );
+				?>
+				<?php
+					printf( esc_html__( bloginfo( 'name' ), 'marker' ) );
+				?>
+				&nbsp;
+				<?php
+					printf( esc_html__( 'All rights reserved.', 'marker' ) );
+				?>
 			</div><!-- .copyright -->
 			<div class="theme-info">
-				<?php printf( esc_html__( 'Designed & maintained by %s.', 'marker' ), '<a href="https://webfirstdesigns.com/" rel="designer">Web First Designs</a>' ); ?>
+				<?php
+					/* translators: %s: Theme author. */
+					printf( esc_html__( 'Designed & maintained by %s.', 'marker' ), '<a href="https://webfirstdesigns.com/" rel="designer">Web First Designs</a>' );
+				?>
 			</div><!-- .theme-info -->
 		</div><!-- #credits -->
 	</footer><!-- #colophon -->
