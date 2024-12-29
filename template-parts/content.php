@@ -59,4 +59,4 @@
 	<footer class="entry-footer">
 		<?php marker_entry_footer(); ?>
 	</footer><!-- .entry-footer -->
-</article><!-- #post-## -->
+</article><!-- #post-<?php the_ID(); ?> -->
