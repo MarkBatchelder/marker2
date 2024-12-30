@@ -24,8 +24,8 @@
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'marker' ); ?></a>
 
-	<header id="masthead" class="site-header" role="banner">
-		<nav id="top-navigation" class="secondary-navigation" role="navigation">
+	<header id="masthead" class="site-header">
+		<nav id="top-navigation" class="secondary-navigation">
 			<?php wp_nav_menu( array(
 				'theme_location' => 'top',
 				'menu_id' => 'top-menu',
@@ -51,7 +51,7 @@
 			endif; ?>
 		</div><!-- #logo -->
 
-		<nav id="primary-navigation" class="main-navigation" role="navigation">
+		<nav id="primary-navigation" class="main-navigation">
 			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( '&#9776;', 'marker' ); ?></button>
 			<?php
 				wp_nav_menu( array(

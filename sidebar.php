@@ -12,7 +12,7 @@ if ( ! is_active_sidebar( 'sidebar-1' ) ) {
 }
 ?>
 
-<aside id="secondary" class="sidebar-widget-area" role="complementary">
+<aside id="secondary" class="sidebar-widget-area">
 	<?php dynamic_sidebar( 'sidebar-1' ); ?>
 </aside><!-- #secondary -->
 
@@ -23,7 +23,7 @@ if ( ! is_active_sidebar( 'sidebar-2' ) ) {
 ?>
 	
 <aside id="tertiary-container" class="footer-sidebar">
-		<div id="tertiary" class="footer-widget-area" role="complementary">
+		<div id="tertiary" class="footer-widget-area">
             <?php dynamic_sidebar( 'sidebar-2' ); ?>
 		</div><!-- #tertiary -->
 </aside><!-- #content-footer -->
