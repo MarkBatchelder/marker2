@@ -28,8 +28,8 @@
 		<nav id="top-navigation" class="secondary-navigation">
 			<?php wp_nav_menu( array(
 				'theme_location' => 'top',
-				'menu_id' => 'top-menu',
-				'fallback_cb' => false,
+				'menu_id'        => 'top-menu',
+				'fallback_cb'    => false,
 			) ); ?>
 		</nav><!-- #top-navigation -->
 
