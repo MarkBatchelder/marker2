@@ -18,11 +18,11 @@ function marker_customize_register( $wp_customize ) {
 	if ( isset( $wp_customize->selective_refresh ) ) {
 		$wp_customize->selective_refresh->add_partial( 'blogname', array(
 			'selector'        => '.site-title a',
-			'render_callback' => '_s_customize_partial_blogname',
+			'render_callback' => 'marker_customize_partial_blogname',
 		) );
 		$wp_customize->selective_refresh->add_partial( 'blogdescription', array(
 			'selector'        => '.site-description',
-			'render_callback' => '_s_customize_partial_blogdescription',
+			'render_callback' => 'marker_customize_partial_blogdescription',
 		) );
 	}
 }
@@ -33,7 +33,7 @@ add_action( 'customize_register', 'marker_customize_register' );
  *
  * @return void
  */
-function _s_customize_partial_blogname() {
+function marker_customize_partial_blogname() {
 	bloginfo( 'name' );
 }
 
@@ -42,7 +42,7 @@ function _s_customize_partial_blogname() {
  *
  * @return void
  */
-function _s_customize_partial_blogdescription() {
+function marker_customize_partial_blogdescription() {
 	bloginfo( 'description' );
 }
 
