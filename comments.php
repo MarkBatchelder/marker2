@@ -31,7 +31,7 @@ if ( post_password_required() ) {
 			if ( '1' === $comment_count ) {
 				printf(
 					/* translators: 1: title. */
-					esc_html_e( 'One comment on &ldquo;%1$s&rdquo;', 'marker' ),
+					esc_html__( 'One comment on &ldquo;%1$s&rdquo;', 'marker' ),
 					'<span>' . get_the_title() . '</span>'
 				);
 			} else {
