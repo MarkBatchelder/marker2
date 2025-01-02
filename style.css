@@ -1,22 +1,22 @@
 /*!
 Theme Name:		Marker
-Theme URI:		https://github.com/WPAddiction/marker
+Theme URI:		https://github.com/MarkBatchelder/marker
 Author:			Web First Designs
-Author URI:		http://WebFirstDesigns.com
+Author URI:		https://WebFirstDesigns.com
 Description:	Parent theme created from Underscores
-Tags:			
+Tags:			custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
 Version:		1.2.4
 _s Update:      Saturday, June 10, 2017 1:26:55 AM
 License:		GNU General Public License v2 or later
-License URI:	http://www.gnu.org/licenses/gpl-2.0.html
+License URI:	LICENSE
 Text Domain:	marker
 
 Marker is a parent theme with no CSS that just needs to be installed to use child themes based on Marker-Child.
-Marker-Child (https://github.com/WPAddiction/marker-child) is a starter child theme with CSS and SASS to customize Marker.
+Marker-Child (https://github.com/MarkBatchelder/marker-child) is a starter child theme with SASS and CSS to customize Marker.
 
-Marker is based on Underscores http://underscores.me/, (C) 2012-2015 Automattic, Inc.
+_s is based on Underscores https://underscores.me/, (C) 2012-2016 Automattic, Inc.
 Underscores is distributed under the terms of the GNU GPL v2 or later.
 
 Normalizing styles have been helped along thanks to the fine work of
-Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 */
