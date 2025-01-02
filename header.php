@@ -35,31 +35,30 @@
 		</nav><!-- #top-navigation -->
 
 		<div id="logo" class="site-branding">
-			<?php
-			if ( get_header_image() ) : ?>
+			<?php if ( get_header_image() ) : ?>
 			<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
 				<img src="<?php header_image(); ?>" width="<?php echo esc_attr( get_custom_header()->width ); ?>" height="<?php echo esc_attr( get_custom_header()->height ); ?>" alt="">
 			</a>
-			<?php
-			endif; // End header image check. ?>
+			<?php endif; // End header image check. ?>
 
 			<?php the_custom_logo(); ?>
 			<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
 
-			<?php $description = get_bloginfo( 'description', 'display' );
-			if ( $description || is_customize_preview() ) : ?>
-				<p class="site-description"><?php echo $description; /* WPCS: xss ok. */ ?></p>
 			<?php
-			endif; ?>
+			$description = get_bloginfo( 'description', 'display' );
+			if ( $description || is_customize_preview() ) :
+			?>
+				<p class="site-description"><?php echo $description; /* WPCS: xss ok. */ ?></p>
+			<?php endif; ?>
 		</div><!-- #logo -->
 
 		<nav id="primary-navigation" class="main-navigation">
 			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( '&#9776;', 'marker' ); ?></button>
 			<?php
-				wp_nav_menu( array(
-					'theme_location' => 'primary',
-					'menu_id'        => 'primary-menu',
-				) );
+			wp_nav_menu( array(
+				'theme_location' => 'primary',
+				'menu_id'        => 'primary-menu',
+			) );
 			?>
 		</nav><!-- #primary-navigation -->
 	</header><!-- #masthead -->
