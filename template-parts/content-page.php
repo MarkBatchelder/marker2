@@ -18,6 +18,8 @@
         </header><!-- .entry-header -->
     <?php endif; ?>
 
+    <?php marker_post_thumbnail(); ?>
+
 	<div class="entry-content">
 		<?php
 			the_content();
