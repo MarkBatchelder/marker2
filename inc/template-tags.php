@@ -134,7 +134,7 @@ if ( ! function_exists( 'marker_post_thumbnail' ) ) :
      * Wraps the post thumbnail in an anchor element on index views, or a div
      * element when on single views.
      */
-    function _s_post_thumbnail() {
+    function marker_post_thumbnail() {
         if ( post_password_required() || is_attachment() || ! has_post_thumbnail() ) {
             return;
         }
