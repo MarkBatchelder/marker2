@@ -28,7 +28,10 @@
 
 		if ( 'post' === get_post_type() ) : ?>
 		<div class="entry-meta">
-			<?php marker_posted_on(); ?>
+			<?php
+                marker_posted_on();
+                marker_posted_by();
+            ?>
 		</div><!-- .entry-meta -->
 		<?php
 		endif; ?>
