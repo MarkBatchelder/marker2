@@ -78,14 +78,14 @@ if ( ! function_exists( 'marker_entry_footer' ) ) :
 			$categories_list = get_the_category_list( esc_html__( ', ', 'marker' ) );
 			if ( $categories_list ) {
 				/* translators: 1: list of categories. */
-				printf( '<span class="cat-links">' . esc_html__( 'Posted in %1$s', 'marker' ) . '</span>', $categories_list ); // WPCS: XSS OK.
+				printf( '<span class="cat-links">' . esc_html__( 'Posted in %1$s', 'marker' ) . '</span>', $categories_list ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
 			}
 
 			/* translators: used between list items, there is a space after the comma */
 			$tags_list = get_the_tag_list( '', esc_html_x( ', ', 'list item separator', 'marker' ) );
 			if ( $tags_list ) {
 				/* translators: 1: list of tags. */
-				printf( '<span class="tags-links">' . esc_html__( 'Tagged %1$s', 'marker' ) . '</span>', $tags_list ); // WPCS: XSS OK.
+				printf( '<span class="tags-links">' . esc_html__( 'Tagged %1$s', 'marker' ) . '</span>', $tags_list ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
 			}
 		}
 
@@ -148,17 +148,22 @@ if ( ! function_exists( 'marker_post_thumbnail' ) ) :
 	
 		<?php else : ?>
 	
-		<a class="post-thumbnail" href="<?php the_permalink(); ?>" aria-hidden="true" tabindex="-1">
-			<?php
-			the_post_thumbnail( 'post-thumbnail', array(
-				'alt' => the_title_attribute( array(
-					'echo' => false,
-				) ),
-			) );
-			?>
-		</a>
+			<a class="post-thumbnail" href="<?php the_permalink(); ?>" aria-hidden="true" tabindex="-1">
+				<?php
+					the_post_thumbnail(
+						'post-thumbnail',
+						array(
+							'alt' => the_title_attribute(
+								array(
+									'echo' => false,
+								)
+							),
+						)
+					);
+				?>
+			</a>
 	
-		<?php
+			<?php
 		endif; // End is_singular().
 	}
 endif;

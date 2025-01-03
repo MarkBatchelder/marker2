@@ -17,14 +17,20 @@
  * @uses marker_header_style()
  */
 function marker_custom_header_setup() {
-	add_theme_support( 'custom-header', apply_filters( 'marker_custom_header_args', array(
-		'default-image'          => '',
-		'default-text-color'     => '000000',
-		'width'                  => 960,
-		'height'                 => 250,
-		'flex-height'            => true,
-		'wp-head-callback'       => 'marker_header_style',
-	) ) );
+	add_theme_support(
+        'custom-header',
+        apply_filters(
+            'marker_custom_header_args',
+            array(
+                'default-image'          => '',
+                'default-text-color'     => '000000',
+                'width'                  => 960,
+                'height'                 => 250,
+                'flex-height'            => true,
+                'wp-head-callback'       => 'marker_header_style',
+	        )
+        )
+    );
 }
 add_action( 'after_setup_theme', 'marker_custom_header_setup' );
 

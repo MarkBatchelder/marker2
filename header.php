@@ -46,20 +46,22 @@
 			<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
 
 			<?php
-			$description = get_bloginfo( 'description', 'display' );
-			if ( $description || is_customize_preview() ) :
+			$marker_description = get_bloginfo( 'description', 'display' );
+			if ( $marker_description || is_customize_preview() ) :
 			?>
-				<p class="site-description"><?php echo $description; /* WPCS: xss ok. */ ?></p>
+                <p class="site-description"><?php echo $marker_description; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></p>
 			<?php endif; ?>
 		</div><!-- #logo -->
 
 		<nav id="primary-navigation" class="main-navigation">
 			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( '&#9776;', 'marker' ); ?></button>
 			<?php
-			wp_nav_menu( array(
-				'theme_location' => 'primary',
-				'menu_id'        => 'primary-menu',
-			) );
+			wp_nav_menu(
+				array(
+					'theme_location' => 'primary',
+					'menu_id'        => 'primary-menu',
+				)
+			);
 			?>
 		</nav><!-- #primary-navigation -->
 	</header><!-- #masthead -->
