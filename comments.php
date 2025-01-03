@@ -33,14 +33,14 @@ if ( post_password_required() ) {
 				printf(
 					/* translators: 1: title. */
 					esc_html__( 'One comment on &ldquo;%1$s&rdquo;', 'marker' ),
-					'<span>' . get_the_title() . '</span>'
+                    '<span>' . wp_kses_post( get_the_title() ) . '</span>'
 				);
 			} else {
 				printf( // WPCS: XSS OK.
 					/* translators: 1: comment count number, 2: title. */
 					esc_html( _nx( '%1$s comment on &ldquo;%2$s&rdquo;', '%1$s comments on &ldquo;%2$s&rdquo;', $marker_comment_count, 'comments title', 'marker' ) ),
 					number_format_i18n( $marker_comment_count ),
-					'<span>' . get_the_title() . '</span>'
+                    '<span>' . wp_kses_post( get_the_title() ) . '</span>'
 				);
 			}
 			?>
