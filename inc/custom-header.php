@@ -57,8 +57,8 @@ if ( ! function_exists( 'marker_header_style' ) ) :
                 position: absolute;
                 clip: rect(1px, 1px, 1px, 1px);
             }
-        <?php
-        // If the user has set a custom color for the text use that.
+            <?php
+            // If the user has set a custom color for the text use that.
         else :
             ?>
             .site-title a,
