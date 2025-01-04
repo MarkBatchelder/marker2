@@ -43,7 +43,7 @@ add_action( 'after_setup_theme', 'marker_woocommerce_setup' );
  * @return void
  */
 function marker_woocommerce_scripts() {
-	wp_enqueue_style( 'marker-woocommerce-style', get_template_directory_uri() . '/woocommerce.css', array(), _S_VERSION );
+	wp_enqueue_style( 'marker-woocommerce-style', get_template_directory_uri() . '/woocommerce.css', array(), MARKER_VERSION );
 
 	$font_path   = WC()->plugin_url() . '/assets/fonts/';
 	$inline_font = '@font-face {
