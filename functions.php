@@ -12,6 +12,7 @@
  */
 function marker_scripts() {
     wp_enqueue_style( 'marker-style', get_stylesheet_uri(), array(), MARKER_VERSION );
+    wp_style_add_data( 'marker-style', 'rtl', 'replace' );
 
     wp_enqueue_script( 'marker-navigation', get_template_directory_uri() . '/js/navigation.js', array(), MARKER_VERSION, true );
 
