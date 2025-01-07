@@ -7,6 +7,11 @@
  * @package Marker
  */
 
+if ( ! defined( 'MARKER_VERSION' ) ) {
+    // Replace the version number of the theme on each release.
+    define( 'MARKER_VERSION', '2.0.0' );
+}
+
 /**
  * Enqueue scripts and styles.
  */
