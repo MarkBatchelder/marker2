@@ -41,7 +41,7 @@
 			</div><!-- .custom-header -->
 		<?php endif; // End header image check. ?>
 
-		<div class="site-branding">
+		<div id="logo" class="site-branding">
 			<?php
 			if ( function_exists( 'the_custom_logo' ) ) {
 				the_custom_logo();
@@ -58,7 +58,7 @@
 					<p class="site-description"><?php echo $marker_description; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></p>
 				<?php endif; ?>
 			</div><!-- .site-name -->
-		</div><!-- .site-branding -->
+		</div><!-- #logo -->
 
 		<nav id="primary-navigation" class="main-navigation">
 			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( '&#9776;', 'marker' ); ?></button>
