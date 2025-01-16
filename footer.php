@@ -11,8 +11,6 @@
 
 ?>
 
-	</div><!-- #content -->
-
 	<footer id="colophon" class="site-footer">
 		<div id="credits" class="site-info">
 			<div class="copyright">
