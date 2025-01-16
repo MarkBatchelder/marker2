@@ -35,23 +35,30 @@
 			) ); ?>
 		</nav><!-- #top-navigation -->
 
-		<div id="logo" class="site-branding">
-			<?php if ( get_header_image() ) : ?>
-			<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
-				<img src="<?php header_image(); ?>" width="<?php echo esc_attr( get_custom_header()->width ); ?>" height="<?php echo esc_attr( get_custom_header()->height ); ?>" alt="">
-			</a>
-			<?php endif; // End header image check. ?>
+		<?php if ( get_header_image() ) : ?>
+			<div class="custom-header">
+				<img src= "<?php header_image(); ?>" alt="Header Image">
+			</div><!-- .custom-header -->
+		<?php endif; // End header image check. ?>
 
-			<?php the_custom_logo(); ?>
-			<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-
+		<div class="site-branding">
 			<?php
-			$marker_description = get_bloginfo( 'description', 'display' );
-			if ( $marker_description || is_customize_preview() ) :
+			if ( function_exists( 'the_custom_logo' ) ) {
+				the_custom_logo();
+			}
 			?>
-                <p class="site-description"><?php echo $marker_description; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></p>
-			<?php endif; ?>
-		</div><!-- #logo -->
+
+			<div class=site-name>
+				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
+
+				<?php
+				$marker_description = get_bloginfo( 'description', 'display' );
+				if ( $marker_description || is_customize_preview() ) :
+				?>
+					<p class="site-description"><?php echo $marker_description; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></p>
+				<?php endif; ?>
+			</div><!-- .site-name -->
+		</div><!-- .site-branding -->
 
 		<nav id="primary-navigation" class="main-navigation">
 			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( '&#9776;', 'marker' ); ?></button>
